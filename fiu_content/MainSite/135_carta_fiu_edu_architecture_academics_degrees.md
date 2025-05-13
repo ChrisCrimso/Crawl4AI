@@ -1,0 +1,223 @@
+---
+url: http://carta.fiu.edu/architecture/academics/degrees
+site: MainSite
+crawled_at: 2025-05-13T11:54:26.965217
+title: Degrees - Department of Architecture
+---
+
+[Skip to content](https://carta.fiu.edu/architecture/academics/degrees/#content)
+[Facebook](http://facebook.com/fiuarchitecture)[X](http://twitter.com/fiuarchitecture)[Flickr](http://flickr.com/photos/fiucarta/collections/72157625045701383/)[Instagram](https://www.instagram.com/fiu_soa/)[LinkedIn](http://linkedin.com/groups/Florida-International-University-Department-Architecture-6713412)
+  * [Quick View](https://carta.fiu.edu/architecture/wp-content/uploads/sites/3/2024/09/CARTA_UnitQuickViews_Arc-F24.pdf)
+  * [FIU by Design](https://carta.fiu.edu/fiubydesign/)
+  * [Resources](https://carta.fiu.edu/architecture/academics/degrees/)
+    * [Clubs & Organizations](https://carta.fiu.edu/architecture/students/student-life/)
+  * Apply
+    * [Undergradute](https://carta.fiu.edu/architecture/academics/undergraduate/admissions/)
+    * [Graduate](https://carta.fiu.edu/architecture/academics/graduate/admissions/)
+  * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+  * [Careers](https://carta.fiu.edu/architecture/jobs-internships/)
+    * [AXP and Licensure](https://carta.fiu.edu/architecture/students/career-development-information/idp-and-licensure/)
+    * [Internship Class](https://carta.fiu.edu/architecture/students/career-development-information/internship-class/)
+    * [Career Fair](http://carta.fiu.edu/academics/school-of-architecture/career-fair/)
+    * [Career Opportunities & Internships](https://carta.fiu.edu/architecture/jobs-internships/)
+    * [IPAL Licensure](https://carta.fiu.edu/architecture/academics/ipal/)
+  * [Events](https://carta.fiu.edu/architecture/events/)
+  * [Contact Us](https://carta.fiu.edu/architecture/contact-us/)
+  * [GIVE NOW](https://carta.fiu.edu/giving/make-an-impact/)
+
+Go to...
+  * [Quick View](https://carta.fiu.edu/architecture/wp-content/uploads/sites/3/2024/09/CARTA_UnitQuickViews_Arc-F24.pdf)
+  * [FIU by Design](https://carta.fiu.edu/fiubydesign/)
+  * [Resources](https://carta.fiu.edu/architecture/academics/degrees/)
+    * [Clubs & Organizations](https://carta.fiu.edu/architecture/students/student-life/)
+  * Apply
+    * [Undergradute](https://carta.fiu.edu/architecture/academics/undergraduate/admissions/)
+    * [Graduate](https://carta.fiu.edu/architecture/academics/graduate/admissions/)
+  * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+  * [Careers](https://carta.fiu.edu/architecture/jobs-internships/)
+    * [AXP and Licensure](https://carta.fiu.edu/architecture/students/career-development-information/idp-and-licensure/)
+    * [Internship Class](https://carta.fiu.edu/architecture/students/career-development-information/internship-class/)
+    * [Career Fair](http://carta.fiu.edu/academics/school-of-architecture/career-fair/)
+    * [Career Opportunities & Internships](https://carta.fiu.edu/architecture/jobs-internships/)
+    * [IPAL Licensure](https://carta.fiu.edu/architecture/academics/ipal/)
+  * [Events](https://carta.fiu.edu/architecture/events/)
+  * [Contact Us](https://carta.fiu.edu/architecture/contact-us/)
+  * [GIVE NOW](https://carta.fiu.edu/giving/make-an-impact/)
+
+
+[ ![Department of Architecture Logo](https://carta.fiu.edu/architecture/wp-content/uploads/sites/3/2018/09/Architecture-hrz2-Color.png) ](https://carta.fiu.edu/architecture/)
+  * [Home](https://carta.fiu.edu/architecture/)
+  * [Discover](https://carta.fiu.edu/architecture/academics/degrees/)
+    * [About Us](https://carta.fiu.edu/architecture/discover/about-us/)
+    * [Studios, Labs + Hubs](https://carta.fiu.edu/academics/school-of-architecture/facilities/)
+    * [Departmental Publications](https://carta.fiu.edu/architecture/discover/departmental-publications/)
+  * [Students](https://carta.fiu.edu/architecture/students/)
+    * [Student Life](https://carta.fiu.edu/architecture/students/student-life/)
+    * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+    * [Financial Aid](https://carta.fiu.edu/architecture/students/financial-aid/)
+    * [Career Fair](https://carta.fiu.edu/academics/school-of-architecture/career-fair/)
+    * [FAQs](https://carta.fiu.edu/architecture/students/faqs/)
+  * [Academics](https://carta.fiu.edu/architecture/academics/)
+    * [Degrees](https://carta.fiu.edu/architecture/academics/degrees/)
+    * [Advising](https://carta.fiu.edu/academics/school-of-architecture/advising/)
+    * [Undergraduate](https://carta.fiu.edu/architecture/academics/undergraduate/)
+      * [Admissions](https://carta.fiu.edu/architecture/academics/undergraduate/admissions/)
+      * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+      * [University Course Catalog](https://catalog.fiu.edu/2017_2018/undergraduate/College_of_Communication_Architecture_The_Arts/Undergraduate_Architecture.pdf)
+      * [University Calendar](http://onestop.fiu.edu/academic-calendar/)
+    * [Graduate](https://carta.fiu.edu/architecture/academics/graduate/)
+      * [Students](https://carta.fiu.edu/architecture/students/)
+        * [Clubs & Organizations](https://carta.fiu.edu/architecture/students/student-life/)
+        * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+        * [Financial Aid](https://carta.fiu.edu/architecture/students/financial-aid/)
+        * [Laptop + Software Information](https://carta.fiu.edu/architecture/students/laptop-software-information/)
+        * [Housing](https://carta.fiu.edu/architecture/students/housing/)
+        * [FAQs](https://carta.fiu.edu/architecture/students/faqs/)
+        * [Career Development Information](https://carta.fiu.edu/architecture/students/career-development-information/)
+          * [AXP and Licensure](https://carta.fiu.edu/architecture/students/career-development-information/idp-and-licensure/)
+          * [Internship Class](https://carta.fiu.edu/architecture/students/career-development-information/internship-class/)
+          * [Career Opportunities & Internships](https://carta.fiu.edu/architecture/students/career-development-information/career-opportunity-links/)
+      * [Admissions](https://carta.fiu.edu/architecture/academics/graduate/admissions/)
+      * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+      * [University Course Catalog](https://catalog.fiu.edu/2017_2018/graduate/College_of_Communication_Architecture_The_Arts/Graduate_Architecture.pdf)
+      * [University Calendar](http://onestop.fiu.edu/academic-calendar/)
+    * [DASH](https://carta.fiu.edu/architecture/academics/dash/)
+    * [DD@SoBe](https://carta.fiu.edu/architecture/academics/ddsobe/)
+    * [NAAB Accreditation](https://carta.fiu.edu/architecture/academics/naab-accreditation/)
+    * [Writing + Studio Culture Policies](https://carta.fiu.edu/architecture/academics/writing-studio-culture-policies/)
+    * [Study Abroad](https://carta.fiu.edu/architecture/academics/study-abroad/)
+    * [IPAL Licensure](https://carta.fiu.edu/architecture/academics/ipal/)
+  * [Faculty & Staff](https://carta.fiu.edu/architecture/faculty-staff/)
+    * [Architecture Faculty](https://carta.fiu.edu/architecture/faculty-staff/faculty-directory/)
+    * [Staff Directory](https://carta.fiu.edu/architecture/faculty-staff/staff-directory/)
+    * [Faculty Publications](https://carta.fiu.edu/architecture/faculty-staff/faculty-publications/)
+  * [News & Events](https://carta.fiu.edu/architecture/news-calendar/)
+    * [Latest on Architecture](http://cartanews.fiu.edu/architecture/)
+    * [Lecture & Event Archive](https://carta.fiu.edu/architecture/news-calendar/lecture-event-archive/)
+    * [Arts @ FIU](http://fiuarts.com)
+    * [FIU News](http://news.fiu.edu/)
+    * [Events Calendar](https://carta.fiu.edu/architecture/events/)
+    * [Walk On Water](https://carta.fiu.edu/wow/)
+  * [Alumni](https://carta.fiu.edu/architecture/alumni/)
+    * [Alumni Spotlights](https://carta.fiu.edu/architecture/alumni/alumni-spotlights/)
+    * [FIU Alumni Association](https://fiualumni.com)
+    * [Keep In Touch](http://carta.fiu.edu/alumni/keep-in-touch/)
+  * [Giving](https://carta.fiu.edu/giving/make-an-impact/)
+  * [](https://carta.fiu.edu/architecture/academics/degrees/ "Search")
+Search for:
+
+Go to...
+  * [Home](https://carta.fiu.edu/architecture/)
+  * [Discover](https://carta.fiu.edu/architecture/academics/degrees/)
+    * [About Us](https://carta.fiu.edu/architecture/discover/about-us/)
+    * [Studios, Labs + Hubs](https://carta.fiu.edu/academics/school-of-architecture/facilities/)
+    * [Departmental Publications](https://carta.fiu.edu/architecture/discover/departmental-publications/)
+  * [Students](https://carta.fiu.edu/architecture/students/)
+    * [Student Life](https://carta.fiu.edu/architecture/students/student-life/)
+    * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+    * [Financial Aid](https://carta.fiu.edu/architecture/students/financial-aid/)
+    * [Career Fair](https://carta.fiu.edu/academics/school-of-architecture/career-fair/)
+    * [FAQs](https://carta.fiu.edu/architecture/students/faqs/)
+  * [Academics](https://carta.fiu.edu/architecture/academics/)
+    * [Degrees](https://carta.fiu.edu/architecture/academics/degrees/)
+    * [Advising](https://carta.fiu.edu/academics/school-of-architecture/advising/)
+    * [Undergraduate](https://carta.fiu.edu/architecture/academics/undergraduate/)
+      * [Admissions](https://carta.fiu.edu/architecture/academics/undergraduate/admissions/)
+      * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+      * [University Course Catalog](https://catalog.fiu.edu/2017_2018/undergraduate/College_of_Communication_Architecture_The_Arts/Undergraduate_Architecture.pdf)
+      * [University Calendar](http://onestop.fiu.edu/academic-calendar/)
+    * [Graduate](https://carta.fiu.edu/architecture/academics/graduate/)
+      * [Students](https://carta.fiu.edu/architecture/students/)
+        * [Clubs & Organizations](https://carta.fiu.edu/architecture/students/student-life/)
+        * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+        * [Financial Aid](https://carta.fiu.edu/architecture/students/financial-aid/)
+        * [Laptop + Software Information](https://carta.fiu.edu/architecture/students/laptop-software-information/)
+        * [Housing](https://carta.fiu.edu/architecture/students/housing/)
+        * [FAQs](https://carta.fiu.edu/architecture/students/faqs/)
+        * [Career Development Information](https://carta.fiu.edu/architecture/students/career-development-information/)
+          * [AXP and Licensure](https://carta.fiu.edu/architecture/students/career-development-information/idp-and-licensure/)
+          * [Internship Class](https://carta.fiu.edu/architecture/students/career-development-information/internship-class/)
+          * [Career Opportunities & Internships](https://carta.fiu.edu/architecture/students/career-development-information/career-opportunity-links/)
+      * [Admissions](https://carta.fiu.edu/architecture/academics/graduate/admissions/)
+      * [Scholarships](https://carta.fiu.edu/architecture/students/scholarships/)
+      * [University Course Catalog](https://catalog.fiu.edu/2017_2018/graduate/College_of_Communication_Architecture_The_Arts/Graduate_Architecture.pdf)
+      * [University Calendar](http://onestop.fiu.edu/academic-calendar/)
+    * [DASH](https://carta.fiu.edu/architecture/academics/dash/)
+    * [DD@SoBe](https://carta.fiu.edu/architecture/academics/ddsobe/)
+    * [NAAB Accreditation](https://carta.fiu.edu/architecture/academics/naab-accreditation/)
+    * [Writing + Studio Culture Policies](https://carta.fiu.edu/architecture/academics/writing-studio-culture-policies/)
+    * [Study Abroad](https://carta.fiu.edu/architecture/academics/study-abroad/)
+    * [IPAL Licensure](https://carta.fiu.edu/architecture/academics/ipal/)
+  * [Faculty & Staff](https://carta.fiu.edu/architecture/faculty-staff/)
+    * [Architecture Faculty](https://carta.fiu.edu/architecture/faculty-staff/faculty-directory/)
+    * [Staff Directory](https://carta.fiu.edu/architecture/faculty-staff/staff-directory/)
+    * [Faculty Publications](https://carta.fiu.edu/architecture/faculty-staff/faculty-publications/)
+  * [News & Events](https://carta.fiu.edu/architecture/news-calendar/)
+    * [Latest on Architecture](http://cartanews.fiu.edu/architecture/)
+    * [Lecture & Event Archive](https://carta.fiu.edu/architecture/news-calendar/lecture-event-archive/)
+    * [Arts @ FIU](http://fiuarts.com)
+    * [FIU News](http://news.fiu.edu/)
+    * [Events Calendar](https://carta.fiu.edu/architecture/events/)
+    * [Walk On Water](https://carta.fiu.edu/wow/)
+  * [Alumni](https://carta.fiu.edu/architecture/alumni/)
+    * [Alumni Spotlights](https://carta.fiu.edu/architecture/alumni/alumni-spotlights/)
+    * [FIU Alumni Association](https://fiualumni.com)
+    * [Keep In Touch](http://carta.fiu.edu/alumni/keep-in-touch/)
+  * [Giving](https://carta.fiu.edu/giving/make-an-impact/)
+
+
+Degrees[projectability](https://carta.fiu.edu/architecture/author/projectability/ "Posts by projectability")2025-03-10T20:02:06+00:00
+The Department of Architecture prepares students for professional practice in the discipline of architecture with emphasis placed upon six thematic areas: architectural design, history/theory, building technologies, digital technology, ethics and professional business practice, and general education. We offer a NAAB accredited Master of Architecture (M. Arch) and the advanced post-professional **Doctor of Design (DDES).**
+Please click on a degree listed below for more information.
+### Doctor of Design
+[Architecture (DDes)](https://carta.fiu.edu/architecture/academics/degrees/doctor-of-design/)
+### Master
+[Architecture (M. Arch)](https://catalog.fiu.edu/programs/ARC:MARCH)
+### Certificate
+[History and Theory of Architecture (UC)](http://catalog.fiu.edu/2019_2020/graduate/College_of_Communication_Architecture_The_Arts/Graduate_Architecture.pdf)
+[History, Theory and Criticism of Architecture (GC)](https://catalog.fiu.edu/programs/HISAR:CFI)
+## **Undergraduate**
+For students seeking to begin their professional design studies as undergraduates, the Department of Architecture offers the Accelerated Masters programs which integrates pre-graduate coursework in a single curricular path.
+## **Graduate**
+The Department of Architecture offers two graduate degrees: The **[NAAB accredited Master of Architecture](https://carta.fiu.edu/architecture/academics/naab-accreditation/)** (M. Arch) and the advanced post-professional Master of Arts in Architecture (MAA).
+## **Certificates**
+The Department of Architecture offers undergraduate, graduate, and professional certificates in History and Theory of Architecture; History, Theory, and Criticism of Architecture; and Sustainable Construction.
+## **Key**
+**MAA** – Master of Arts in Architecture **M.Arch** – Master of Architecture **GC** – Graduate Certificate **PC** – Professional Certificate **UC** – Undergraduate Certificate
+![logo_official_white](https://carta.fiu.edu/architecture/wp-content/uploads/sites/3/2016/06/ArchArts-hrz-BW-rev.png) [ College HOME](http://carta.fiu.edu/) | [ News](http://cartanews.fiu.edu/)
+**Department of Architecture** Modesto A. Maidique Campus **Paul L. Cejas School of Architecture Building** [11200 SW 8th Street PCA - 280 Miami, Florida 33199](https://carta.fiu.edu/architecture/academics/degrees/)
+**Contact** **PH:** 305-348-1323 | **Fx:** 305-348-2650 **E-Mail:** garciamd@fiu.edu **E-Mail:** architecture@fiu.edu
+## Explore FIU
+  * [About](https://www.fiu.edu/about/index.html)
+  * [Admissions](https://www.fiu.edu/admissions/index.html)
+  * [Academics](https://www.fiu.edu/academics/index.html)
+  * [Locations](https://www.fiu.edu/locations/index.html)
+  * [Research](https://www.fiu.edu/research/index.html)
+  * [Student Life](https://www.fiu.edu/student-life/index.html)
+  * [Athletics](https://www.fiu.edu/athletics/index.html)
+  * [Alumni & Giving](https://www.fiu.edu/alumni-and-giving/index.html)
+  * [Careers at FIU](https://hr.fiu.edu/careers/)
+
+
+## Tools & Resources
+  * [Phonebook](https://phonebook.fiu.edu) (Directory)
+  * [University Calendar](https://calendar.fiu.edu/)
+  * [Campus Maps](http://campusmaps.fiu.edu/)
+  * [MyFIU](https://my.fiu.edu/)
+  * [Canvas](https://canvas.fiu.edu)
+  * [FIU Email](https://mail.fiu.edu/)
+  * [System Status](https://italerts.fiu.edu)
+  * [Reserve Space](https://reservespace.fiu.edu/make-reservation/)
+  * [Nondiscrimination](https://ace.fiu.edu/civil-rights-and-accessibility/harassment-and-discrimination/)
+  * [Title IX](https://ace.fiu.edu/title-ix/)
+  * [Report Discrimination or Harassment](https://report.fiu.edu/)
+
+
+![FIU logo](https://carta.fiu.edu/wp-content/uploads/2022/10/FIU-logo-300x54.png)
+## Tools & Resources
+  * [Contact Us](https://www.fiu.edu/about/contact-us/index.html)
+  * [FIU News](https://news.fiu.edu/)
+
+
+[](https://www.facebook.com/floridainternational "Facebook")[](https://twitter.com/fiu "Twitter")[](https://www.instagram.com/fiuinstagram/ "Instagram")[](https://flickr.com/photos/fiu "Flickr")[](https://www.tiktok.com/@fiutiktok "Tiktok")[](https://www.youtube.com/user/FloridaInternational "YouTube")
+© 2022 Florida International University | Website by [CARTA's Creative Team](https://creative.fiu.edu/) | Website Feedback

@@ -1,0 +1,446 @@
+---
+url: http://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php
+site: MainSite
+crawled_at: 2025-05-13T11:54:29.697820
+title: B.S. in Information Technology - FIU Online
+---
+
+![Spinner: White decorative](https://cdn.userway.org/widgetapp/images/spin_wh.svg)
+![](https://cdn.userway.org/widgetapp/images/body_wh.svg)
+![Spinner: White decorative](https://cdn.userway.org/widgetapp/images/spin_wh.svg)
+![privacy shield icon](https://fiuonline.fiu.edu/_assets/images/icons/privacy-shield.png)
+By clicking ACCEPT, or using our site, you consent to the use of cookies. To learn more about cookies, including how to disable them, please review our [Privacy Policy](https://fiuonline.fiu.edu/about-us/privacy-policy.php).
+ACCEPT
+X
+[Skip to Main Content.](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php#main-content)
+[Florida International University](https://fiu.edu)
+[ Search ](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php) [ Course Login ](https://canvas.fiu.edu/)
+[ ![QM Matters](https://fiuonline.fiu.edu/_assets/images/qm-ribbon.svg) ](https://fiuonline.fiu.edu/about-us/story-hub/fiu-online-news/fiu-is-number-1-in-the-nation-for-quality-matters-certfied-online-courses.php)
+[![logo](https://fiuonline.fiu.edu/_assets/images/online-logo-white-gold.svg)](https://fiuonline.fiu.edu/)
+  * [Future Students](https://fiuonline.fiu.edu/)
+### [Future Students](https://fiuonline.fiu.edu/index.php)
+[Future Students Home](https://fiuonline.fiu.edu/index.php)
+### [Degrees](https://fiuonline.fiu.edu/programs/)
+    * [Degrees Home](https://fiuonline.fiu.edu/programs/)
+    * [Graduate](https://fiuonline.fiu.edu/programs/graduate-degrees)
+    * [Undergraduate](https://fiuonline.fiu.edu/programs/undergraduate-degrees)
+    * [Graduate Certificate Programs](https://fiuonline.fiu.edu/programs/graduate-certificates)
+    * [Undergraduate Certificate Programs](https://fiuonline.fiu.edu/programs/undergraduate-certificates)
+    * [Professional Licensure](https://www.fiu.edu/academics/professional-licensure/index.html)
+### [experience](https://fiuonline.fiu.edu/experience/)
+    * [Experience Overview](https://fiuonline.fiu.edu/experience/)
+    * [Success Stories](https://fiuonline.fiu.edu/experience/success-stories.php)
+    * [Student Life](https://fiuonline.fiu.edu/experience/student-life.php)
+    * [Student Services](https://fiuonline.fiu.edu/experience/student-services/index.php)
+    * [Events](https://fiuonline.fiu.edu/experience/events)
+    * [FAQs](https://fiuonline.fiu.edu/experience/faq.php)
+### [Resources](https://fiuonline.fiu.edu/resources/)
+    * [Resources](https://fiuonline.fiu.edu/resources/)
+    * [Admissions](https://admissions.fiu.edu/)
+    * [Tuition Fee Calculator](https://controller.fiu.edu/departments/student-financials-systems/bursar-cashiers/calculator/)
+    * [Finances](https://onestop.fiu.edu/finances/)
+    * [FIU Online Scholarships](https://fiuonline.fiu.edu/resources/scholarships.php)
+    * [University Scholarships](https://scholarships.fiu.edu)
+### [About Us](https://fiuonline.fiu.edu/about-us/)
+    * [About Us Overview](https://fiuonline.fiu.edu/about-us/)
+    * [Rankings and Accreditations](https://fiuonline.fiu.edu/about-us/rankings-and-accreditations.php)
+    * [Corporate Partnerships](https://fiuonline.fiu.edu/about-us/business-development/index.php)
+    * [State Authorizations and Partnerships](https://fiuonline.fiu.edu/about-us/state-authorizations-and-partnerships.php)
+    * [Our Faculty](https://fiuonline.fiu.edu/about-us/faculty.php)
+    * [Our Story](https://fiuonline.fiu.edu/about-us/our-story.php)
+    * [Why FIU Online](https://fiuonline.fiu.edu/about-us/why-fiu-online.php)
+    * [Story Hub](https://fiuonline.fiu.edu/about-us/story-hub/index.php)
+### [Contact Us](https://fiuonline.fiu.edu/contact-us/)
+    * [Contact Us](https://fiuonline.fiu.edu/contact-us/)
+    * [Call: 855-940-1517](tel:+1-855-940-1517)
+    * [Request Info](https://fiuonline.fiu.edu/contact-us/request-info/)
+    * [Schedule an Appointment](https://fiuonline.fiu.edu/contact-us/#schedule-appointment)
+  * [Current Students](https://fiuonline.fiu.edu/current-students/)
+### [Current Students](https://fiuonline.fiu.edu/current-students/)
+[Current Students Home](https://fiuonline.fiu.edu/current-students/)
+### [Class Search](https://fiuonline.fiu.edu/current-students/class-search/)
+    * [Search for Courses](https://fiuonline.fiu.edu/current-students/class-search/ "Search for Courses")
+### [Canvas Help](https://fiuonline.fiu.edu/current-students/canvas-help)
+    * [Canvas Help Overview](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php)
+    * [Canvas Help Articles](https://fiuonline.my.site.com/canvas/s/categories-student "Canvas Help Articles")
+    * [Login Instructions](https://fiuonline.my.site.com/canvas/s/article/Login-and-Forgotten-Password "Login Instructions")
+    * [Contact Canvas Help](https://canvas.fiu.edu/support/index.php "Contact Canvas Help")
+    * [Submit a Request](https://canvas.fiu.edu/support/students "Submit a Request")
+    * [Live Chat](https://canvas.fiu.edu/chat/ "Live Chat")
+    * [Call: 305-348-3630](tel:305-348-3630 "Call for Canvas Help")
+    * [Requirements Check](https://canvas.fiu.edu/login/requirements-check.php "Requirements Check")
+### [Success Coaches](https://fiuonline.fiu.edu/current-students/success-coaches/)
+    * [Success Coaches Overview](https://fiuonline.fiu.edu/current-students/success-coaches/)
+    * [Success Coach Lookup](https://canvas.fiu.edu/support/students "Success Coach Lookup")
+    * [Meet the Team](https://fiuonline.fiu.edu/current-students/success-coaches/meet-the-team.php "Meet the Team")
+    * [Make an Appointment](https://fiuonline.fiu.edu/current-students/success-coaches/make-an-appointment.php "Make an Appointment")
+    * [Call: 305-348-3125](tel:305-348-3125 "Call a Succes Coach")
+    * [Success Resources](https://fiuonline.fiu.edu/current-students/success-coaches/success-resources.php "Success Resources")
+    * [FAQs](https://fiuonline.fiu.edu/current-students/success-coaches/faqs.php "Success FAQs")
+### [Student Experience](https://fiuonline.fiu.edu/current-students/student-experience/)
+    * [Student Experience Overview](https://fiuonline.fiu.edu/current-students/)
+    * [Events and Social](https://fiu.campuslabs.com/engage "Events and Social")
+    * [Panther Den](https://canvas.fiu.edu/ "Panther Den")
+    * [FIU Student Ambassadors](https://ambassadors.fiu.edu/ "FIU Student Ambassadors")
+    * [Success Stories](https://go.fiu.edu/mystory "Success Stories")
+    * [Development Opportunities](https://fiuonline.fiu.edu/current-students/student-experience/development-opportunities/ "Development opportunities")
+    * [Graduation](https://fiuonline.fiu.edu/current-students/student-experience/graduation.php "Graduation")
+### [Resources](https://fiuonline.fiu.edu/current-students/resources/)
+    * [Resources overview](https://fiuonline.fiu.edu/current-students/resources)
+    * [Software Resources](https://fiuonline.my.site.com/canvas/s/article/Software-Resources "Software Resources")
+    * [Tuition, Aid, and Scholarships](https://fiuonline.fiu.edu/tuition-and-aid/ "Tuition, Aid, and Scholarships")
+    * [University Resources](https://fiuonline.fiu.edu/current-students/resources/university-resources.php "University Resources")
+    * [Proctored Exams](https://fiuonline.fiu.edu/current-students/resources/proctored-exams.php "Proctored Exams")
+    * [Student Complaint Process](https://fiuonline.fiu.edu/current-students/resources/student-complaint-process.php "Student Complaint Process")
+    * [Academic Online Guidelines](https://fiuonline.fiu.edu/current-students/resources/academic-online-guidelines.php "Academic Online Guidelines")
+  * [Faculty & Admin](https://fiuonline.fiu.edu/faculty-admin/)
+### [Faculty & Admin](https://fiuonline.fiu.edu/faculty-admin/)
+[Faculty & Admin Home](https://fiuonline.fiu.edu/faculty-admin/)
+### [Faculty Services](https://fiuonline.fiu.edu/faculty-admin/services)
+    * [Faculty Services overview](https://fiuonline.fiu.edu/faculty-admin/services/)
+    * [Instructional Design Services](https://fiuonline.fiu.edu/faculty-admin/services/instructional-design.php "Instructional Designers")
+    * [Multimedia](https://fiuonline.fiu.edu/faculty-admin/services/multimedia.php "Multimedia")
+    * [Online Course Enhancements Opt-In](https://fiuonline.fiu.edu/faculty-admin/services/online-course-enhancement/ "Online Course Enhancements Opt-In")
+    * [Online Departmental Courses](https://fiuonline.fiu.edu/faculty-admin/services/online-departmental-courses/ "Online Course Departmental Courses")
+    * [ Online Live ](https://fiuonline.fiu.edu/faculty-admin/services/onlinelive/ "Online Live")
+    * [Canvas Support](https://canvas.fiu.edu/support/ "Canvas Support")
+    * [Goldi: Your AI-Powered Companion ![Magenta sign that says New in capital letters](https://fiuonline.fiu.edu/_assets/images/faculty-admin/goldi-blu/new-scratch-v1.svg) ](https://fiuonline.fiu.edu/faculty-admin/services/goldi+blu.php "Goldi: Your AI-Powered Companion")
+### [Initiatives](https://fiuonline.fiu.edu/faculty-admin/initiatives/)
+    * [Initiatives Overview](https://fiuonline.fiu.edu/faculty-admin/initiatives/)
+    * [Panther Quality Initiative](https://fiuonline.fiu.edu/faculty-admin/initiatives/panther-quality-initiative.php)
+    * [Affordability Counts](https://affordabilitycounts.org/ "Affordability Counts")
+    * [Accessibility](https://fiuonline.fiu.edu/faculty-admin/initiatives/accessibility.php "Accessibility")
+### [Resources](https://fiuonline.fiu.edu/faculty-admin/resources/)
+    * [Resources Overview ](https://fiuonline.my.site.com/canvas/s/categories-faculty)
+    * [Canvas Knowledgebase](https://fiuonline.my.site.com/canvas/s/categories-faculty "Canvas Knowledgebase")
+    * [Online Insider](http://insider.fiu.edu/ "Online Insider Newsletter")
+    * [Pedagogy](https://fiuonline.fiu.edu/faculty-admin/resources/pedagogy/ "Pedagogy")
+    * [Policies](https://fiuonline.fiu.edu/faculty-admin/resources/policies.php "Policies")
+    * [FAQ](https://fiuonline.fiu.edu/faculty-admin/resources/faq/ "FAQ")
+    * [University Resources](https://fiuonline.fiu.edu/faculty-admin/resources/university-resources/ "University Resources")
+    * [Using your Sandbox Course](https://fiuonline.fiu.edu/faculty-admin/resources/sandbox-course.php "Using your Sandbox Course")
+    * [Request a Departmental Training](https://fiuonline.fiu.edu/faculty-admin/resources/request-a-department-training/ "Request a Departmental Training")
+    * [Added Instructor Compensation](https://fiuonline.fiu.edu/faculty-admin/resources/added-instructor-compensation.php "Added Instructor Compensation")
+### [Events](https://fiuonline.fiu.edu/faculty-admin/events/)
+    * [Events Overview ](https://fiuonline.fiu.edu/faculty-admin/events/)
+    * [FIU Online Con](https://fiuonline.fiu.edu/faculty-admin/events/fiuonlinecon.php "FIU Online Conference")
+    * [Faculty Choice Awards](https://fiuonline.fiu.edu/faculty-admin/events/faculty-choice-awards.php "Faculty Choice Awards")
+    * [FIU Online All Access Day](https://fiuonline.fiu.edu/faculty-admin/events/allaccessday/ "FIU Online All Access Day")
+### [Contact Us](https://fiuonline.fiu.edu/faculty-admin/contact-us/index.php)
+    * [Contact Us](https://fiuonline.fiu.edu/faculty-admin/contact-us/index.php)
+  * [About Us](https://fiuonline.fiu.edu/about-us/)
+### [About Us](https://fiuonline.fiu.edu/about-us/)
+[About Us Home](https://fiuonline.fiu.edu/about-us/)
+### [About](https://fiuonline.fiu.edu/about-us/)
+    * [Rankings and Accreditations](https://fiuonline.fiu.edu/about-us/rankings-and-accreditations.php)
+    * [Corporate Partnerships](https://fiuonline.fiu.edu/about-us/business-development/index.php)
+    * [State Authorizations and Partnerships](https://fiuonline.fiu.edu/about-us/state-authorizations-and-partnerships.php)
+    * [Our Faculty](https://fiuonline.fiu.edu/about-us/faculty.php)
+    * [Our Story](https://fiuonline.fiu.edu/about-us/our-story.php)
+    * [Why FIU Online](https://fiuonline.fiu.edu/about-us/why-fiu-online.php)
+    * [Online Program Experience (OPX)](https://fiuonline.fiu.edu/about-us/online-program-experience.php)
+    * [Story Hub](https://fiuonline.fiu.edu/about-us/story-hub/index.php)
+    * [Take a Tour](https://fiuonline.fiu.edu/about-us/take-a-tour.php)
+    * ![graduation degree icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-degrees.svg)
+120+
+**fully online degree programs**
+    * ![graduation cap icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-years.svg)
+25+
+**years of experience**
+    * ![instructors and students icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-instructors.svg)
+1,700+
+**instructors**
+    * ![student on laptop icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-students.svg)
+37k
+**students take fully online courses every year**
+    * ![instructor on laptop screen icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-courses.svg)
+5,100+
+**fully online courses offered**
+    * ![U.S. News and World reports. Best Online Programs: Bachelor's of Business 2023](https://fiuonline.fiu.edu/_assets/images/icons/bop02-bach-business-2023.webp)
+    * ![U.S. News and World reports. Best Online Programs: Bachelor's Overall 2023](https://fiuonline.fiu.edu/_assets/images/icons/bop01-bach-overall-2023.webp)
+    * ![U.S. News and World reports. Best Online Programs: Bachelor's of Psychology 2023](https://fiuonline.fiu.edu/_assets/images/icons/bop03-bach-psychology-2023.webp)
+    * ![U.S. News and World reports. Best Online Programs: Veterans Bachelors 2023](https://fiuonline.fiu.edu/_assets/images/icons/bop04-vet-bachelors-2023.webp)
+  * [apply now](https://admissions.fiu.edu/how-to-apply/apply/)
+
+
+[![logo](https://fiuonline.fiu.edu/_assets/images/online-logo-white-gold.svg)](https://fiuonline.fiu.edu/)
+  * [Future Students](https://fiuonline.fiu.edu/)
+### [Future Students](https://fiuonline.fiu.edu/index.php)
+[Future Students Home](https://fiuonline.fiu.edu/index.php)
+### [Degrees](https://fiuonline.fiu.edu/programs/)
+    * [Degrees Home](https://fiuonline.fiu.edu/programs/)
+    * [Graduate](https://fiuonline.fiu.edu/programs/graduate-degrees)
+    * [Undergraduate](https://fiuonline.fiu.edu/programs/undergraduate-degrees)
+    * [Graduate Certificate Programs](https://fiuonline.fiu.edu/programs/graduate-certificates)
+    * [Undergraduate Certificate Programs](https://fiuonline.fiu.edu/programs/undergraduate-certificates)
+    * [Professional Licensure](https://www.fiu.edu/academics/professional-licensure/index.html)
+### [experience](https://fiuonline.fiu.edu/experience/)
+    * [Experience Overview](https://fiuonline.fiu.edu/experience/)
+    * [Success Stories](https://fiuonline.fiu.edu/experience/success-stories.php)
+    * [Student Life](https://fiuonline.fiu.edu/experience/student-life.php)
+    * [Student Services](https://fiuonline.fiu.edu/experience/student-services/index.php)
+    * [Events](https://fiuonline.fiu.edu/experience/events)
+    * [FAQs](https://fiuonline.fiu.edu/experience/faq.php)
+### [Resources](https://fiuonline.fiu.edu/resources/)
+    * [Resources](https://fiuonline.fiu.edu/resources/)
+    * [Admissions](https://admissions.fiu.edu/)
+    * [Tuition Fee Calculator](https://controller.fiu.edu/departments/student-financials-systems/bursar-cashiers/calculator/)
+    * [Finances](https://onestop.fiu.edu/finances/)
+    * [FIU Online Scholarships](https://fiuonline.fiu.edu/resources/scholarships.php)
+    * [University Scholarships](https://scholarships.fiu.edu)
+### [About Us](https://fiuonline.fiu.edu/about-us/)
+    * [About Us Overview](https://fiuonline.fiu.edu/about-us/)
+    * [Rankings and Accreditations](https://fiuonline.fiu.edu/about-us/rankings-and-accreditations.php)
+    * [Corporate Partnerships](https://fiuonline.fiu.edu/about-us/business-development/index.php)
+    * [State Authorizations and Partnerships](https://fiuonline.fiu.edu/about-us/state-authorizations-and-partnerships.php)
+    * [Our Faculty](https://fiuonline.fiu.edu/about-us/faculty.php)
+    * [Our Story](https://fiuonline.fiu.edu/about-us/our-story.php)
+    * [Why FIU Online](https://fiuonline.fiu.edu/about-us/why-fiu-online.php)
+    * [Story Hub](https://fiuonline.fiu.edu/about-us/story-hub/index.php)
+### [Contact Us](https://fiuonline.fiu.edu/contact-us/)
+    * [Contact Us](https://fiuonline.fiu.edu/contact-us/)
+    * [Call: 855-940-1517](tel:+1-855-940-1517)
+    * [Request Info](https://fiuonline.fiu.edu/contact-us/request-info/)
+    * [Schedule an Appointment](https://fiuonline.fiu.edu/contact-us/#schedule-appointment)
+  * [Current Students](https://fiuonline.fiu.edu/current-students/)
+### [Current Students](https://fiuonline.fiu.edu/current-students/)
+[Current Students Home](https://fiuonline.fiu.edu/current-students/)
+### [Class Search](https://fiuonline.fiu.edu/current-students/class-search/)
+    * [Search for Courses](https://fiuonline.fiu.edu/current-students/class-search/ "Search for Courses")
+### [Canvas Help](https://fiuonline.fiu.edu/current-students/canvas-help)
+    * [Canvas Help Overview](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php)
+    * [Canvas Help Articles](https://fiuonline.my.site.com/canvas/s/categories-student "Canvas Help Articles")
+    * [Login Instructions](https://fiuonline.my.site.com/canvas/s/article/Login-and-Forgotten-Password "Login Instructions")
+    * [Contact Canvas Help](https://canvas.fiu.edu/support/index.php "Contact Canvas Help")
+    * [Submit a Request](https://canvas.fiu.edu/support/students "Submit a Request")
+    * [Live Chat](https://canvas.fiu.edu/chat/ "Live Chat")
+    * [Call: 305-348-3630](tel:305-348-3630 "Call for Canvas Help")
+    * [Requirements Check](https://canvas.fiu.edu/login/requirements-check.php "Requirements Check")
+### [Success Coaches](https://fiuonline.fiu.edu/current-students/success-coaches/)
+    * [Success Coaches Overview](https://fiuonline.fiu.edu/current-students/success-coaches/)
+    * [Success Coach Lookup](https://canvas.fiu.edu/support/students "Success Coach Lookup")
+    * [Meet the Team](https://fiuonline.fiu.edu/current-students/success-coaches/meet-the-team.php "Meet the Team")
+    * [Make an Appointment](https://fiuonline.fiu.edu/current-students/success-coaches/make-an-appointment.php "Make an Appointment")
+    * [Call: 305-348-3125](tel:305-348-3125 "Call a Succes Coach")
+    * [Success Resources](https://fiuonline.fiu.edu/current-students/success-coaches/success-resources.php "Success Resources")
+    * [FAQs](https://fiuonline.fiu.edu/current-students/success-coaches/faqs.php "Success FAQs")
+### [Student Experience](https://fiuonline.fiu.edu/current-students/student-experience/)
+    * [Student Experience Overview](https://fiuonline.fiu.edu/current-students/)
+    * [Events and Social](https://fiu.campuslabs.com/engage "Events and Social")
+    * [Panther Den](https://canvas.fiu.edu/ "Panther Den")
+    * [FIU Student Ambassadors](https://ambassadors.fiu.edu/ "FIU Student Ambassadors")
+    * [Success Stories](https://go.fiu.edu/mystory "Success Stories")
+    * [Development Opportunities](https://fiuonline.fiu.edu/current-students/student-experience/development-opportunities/ "Development opportunities")
+    * [Graduation](https://fiuonline.fiu.edu/current-students/student-experience/graduation.php "Graduation")
+### [Resources](https://fiuonline.fiu.edu/current-students/resources/)
+    * [Resources overview](https://fiuonline.fiu.edu/current-students/resources)
+    * [Software Resources](https://fiuonline.my.site.com/canvas/s/article/Software-Resources "Software Resources")
+    * [Tuition, Aid, and Scholarships](https://fiuonline.fiu.edu/tuition-and-aid/ "Tuition, Aid, and Scholarships")
+    * [University Resources](https://fiuonline.fiu.edu/current-students/resources/university-resources.php "University Resources")
+    * [Proctored Exams](https://fiuonline.fiu.edu/current-students/resources/proctored-exams.php "Proctored Exams")
+    * [Student Complaint Process](https://fiuonline.fiu.edu/current-students/resources/student-complaint-process.php "Student Complaint Process")
+    * [Academic Online Guidelines](https://fiuonline.fiu.edu/current-students/resources/academic-online-guidelines.php "Academic Online Guidelines")
+  * [Faculty & Admin](https://fiuonline.fiu.edu/faculty-admin/)
+### [Faculty & Admin](https://fiuonline.fiu.edu/faculty-admin/)
+[Faculty & Admin Home](https://fiuonline.fiu.edu/faculty-admin/)
+### [Faculty Services](https://fiuonline.fiu.edu/faculty-admin/services)
+    * [Faculty Services overview](https://fiuonline.fiu.edu/faculty-admin/services/)
+    * [Instructional Design Services](https://fiuonline.fiu.edu/faculty-admin/services/instructional-design.php "Instructional Designers")
+    * [Multimedia](https://fiuonline.fiu.edu/faculty-admin/services/multimedia.php "Multimedia")
+    * [Online Course Enhancements Opt-In](https://fiuonline.fiu.edu/faculty-admin/services/online-course-enhancement/ "Online Course Enhancements Opt-In")
+    * [Online Departmental Courses](https://fiuonline.fiu.edu/faculty-admin/services/online-departmental-courses/ "Online Course Departmental Courses")
+    * [ Online Live ](https://fiuonline.fiu.edu/faculty-admin/services/onlinelive/ "Online Live")
+    * [Canvas Support](https://canvas.fiu.edu/support/ "Canvas Support")
+    * [Goldi: Your AI-Powered Companion ![Magenta sign that says New in capital letters](https://fiuonline.fiu.edu/_assets/images/faculty-admin/goldi-blu/new-scratch-v1.svg) ](https://fiuonline.fiu.edu/faculty-admin/services/goldi+blu.php "Goldi: Your AI-Powered Companion")
+### [Initiatives](https://fiuonline.fiu.edu/faculty-admin/initiatives/)
+    * [Initiatives Overview](https://fiuonline.fiu.edu/faculty-admin/initiatives/)
+    * [Panther Quality Initiative](https://fiuonline.fiu.edu/faculty-admin/initiatives/panther-quality-initiative.php)
+    * [Affordability Counts](https://affordabilitycounts.org/ "Affordability Counts")
+    * [Accessibility](https://fiuonline.fiu.edu/faculty-admin/initiatives/accessibility.php "Accessibility")
+### [Resources](https://fiuonline.fiu.edu/faculty-admin/resources/)
+    * [Resources Overview ](https://fiuonline.my.site.com/canvas/s/categories-faculty)
+    * [Canvas Knowledgebase](https://fiuonline.my.site.com/canvas/s/categories-faculty "Canvas Knowledgebase")
+    * [Online Insider](http://insider.fiu.edu/ "Online Insider Newsletter")
+    * [Pedagogy](https://fiuonline.fiu.edu/faculty-admin/resources/pedagogy/ "Pedagogy")
+    * [Policies](https://fiuonline.fiu.edu/faculty-admin/resources/policies.php "Policies")
+    * [FAQ](https://fiuonline.fiu.edu/faculty-admin/resources/faq/ "FAQ")
+    * [University Resources](https://fiuonline.fiu.edu/faculty-admin/resources/university-resources/ "University Resources")
+    * [Using your Sandbox Course](https://fiuonline.fiu.edu/faculty-admin/resources/sandbox-course.php "Using your Sandbox Course")
+    * [Request a Departmental Training](https://fiuonline.fiu.edu/faculty-admin/resources/request-a-department-training/ "Request a Departmental Training")
+    * [Added Instructor Compensation](https://fiuonline.fiu.edu/faculty-admin/resources/added-instructor-compensation.php "Added Instructor Compensation")
+### [Events](https://fiuonline.fiu.edu/faculty-admin/events/)
+    * [Events Overview ](https://fiuonline.fiu.edu/faculty-admin/events/)
+    * [FIU Online Con](https://fiuonline.fiu.edu/faculty-admin/events/fiuonlinecon.php "FIU Online Conference")
+    * [Faculty Choice Awards](https://fiuonline.fiu.edu/faculty-admin/events/faculty-choice-awards.php "Faculty Choice Awards")
+    * [FIU Online All Access Day](https://fiuonline.fiu.edu/faculty-admin/events/allaccessday/ "FIU Online All Access Day")
+### [Contact Us](https://fiuonline.fiu.edu/faculty-admin/contact-us/index.php)
+    * [Contact Us](https://fiuonline.fiu.edu/faculty-admin/contact-us/index.php)
+  * [About Us](https://fiuonline.fiu.edu/about-us/)
+### [About Us](https://fiuonline.fiu.edu/about-us/)
+[About Us Home](https://fiuonline.fiu.edu/about-us/)
+### [About](https://fiuonline.fiu.edu/about-us/)
+    * [Rankings and Accreditations](https://fiuonline.fiu.edu/about-us/rankings-and-accreditations.php)
+    * [Corporate Partnerships](https://fiuonline.fiu.edu/about-us/business-development/index.php)
+    * [State Authorizations and Partnerships](https://fiuonline.fiu.edu/about-us/state-authorizations-and-partnerships.php)
+    * [Our Faculty](https://fiuonline.fiu.edu/about-us/faculty.php)
+    * [Our Story](https://fiuonline.fiu.edu/about-us/our-story.php)
+    * [Why FIU Online](https://fiuonline.fiu.edu/about-us/why-fiu-online.php)
+    * [Online Program Experience (OPX)](https://fiuonline.fiu.edu/about-us/online-program-experience.php)
+    * [Story Hub](https://fiuonline.fiu.edu/about-us/story-hub/index.php)
+    * [Take a Tour](https://fiuonline.fiu.edu/about-us/take-a-tour.php)
+    * ![graduation degree icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-degrees.svg)
+120+
+**fully online degree programs**
+    * ![graduation cap icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-years.svg)
+25+
+**years of experience**
+    * ![instructors and students icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-instructors.svg)
+1,700+
+**instructors**
+    * ![student on laptop icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-students.svg)
+37k
+**students take fully online courses every year**
+    * ![instructor on laptop screen icon](https://fiuonline.fiu.edu/_assets/images/icons/we-know-online-courses.svg)
+5,100+
+**fully online courses offered**
+    * ![U.S. News and World reports. Best Online Programs: Bachelor's of Business 2023](https://fiuonline.fiu.edu/_assets/images/icons/bop02-bach-business-2023.webp)
+    * ![U.S. News and World reports. Best Online Programs: Bachelor's Overall 2023](https://fiuonline.fiu.edu/_assets/images/icons/bop01-bach-overall-2023.webp)
+    * ![U.S. News and World reports. Best Online Programs: Bachelor's of Psychology 2023](https://fiuonline.fiu.edu/_assets/images/icons/bop03-bach-psychology-2023.webp)
+    * ![U.S. News and World reports. Best Online Programs: Veterans Bachelors 2023](https://fiuonline.fiu.edu/_assets/images/icons/bop04-vet-bachelors-2023.webp)
+  * [apply now](https://admissions.fiu.edu/how-to-apply/apply/)
+
+
+# Online Bachelor of Science Information Technology
+## School of Computing and Information Sciences
+First name
+Last name
+Telephone
+Email
+What is 5 - 4?:
+I expressly consent to be contacted via email, auto-dialed and/or pre-recorded telephone calls, and/or text message.  See more information about this consent 
+  * [Home](https://fiuonline.fiu.edu/index.php)
+  * [Programs](https://fiuonline.fiu.edu/programs/index.php)
+  * [Online Undergraduate Degrees](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/index.php)
+  * B.S. in Information Technology
+
+
+## Degree Title
+Bachelor of Science
+### Summer B 2025 Start Date:
+June 16, 2025
+### Fall 2025 Start Date:
+August 25, 2025
+[APPLY NOW](https://fiuonline.fiu.edu/apply-now.php)
+##  Overview 
+There’s never been a greater need for professionals with the knowledge to navigate the continually changing landscape of digital information. FIU Online's fully online Bachelor of Science in Information Technology prepares graduates to excel in a world increasingly focused on information technology. Advance your knowledge and earn one of the most in-demand bachelor’s degrees with a curriculum that includes courses in programming, software development, information systems, database development, computer networking, operating systems and more. Learn from the same top-ranked faculty and industry experts that teach on campus.
+**Take the next step.**
+With FIU Online, you can learn anywhere, anytime. Our interactive technology enables you to watch lectures, get real-time feedback from your instructors and collaborate with classmates on projects. It's the convenient, flexible and affordable approach to a better future.
+  * ## [ Why Apply? ](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php)
+FIU Online's Bachelor of Science in Information Technology includes hands-on skill development, with a focus on becoming proficient in new, innovative technologies. You’ll build your technical abilities, be prepared for real-life situations, and be able to apply your extensive knowledge of computers, programming, and all IT-related tasks to the professional world—from business to government to education to non-profit organizations. The Florida Board of Governors has recognized FIU as a top institution for training tech talent for its innovative approaches in educating the next generation of top computing specialists. 
+**Career Opportunities**
+Many of our information technology graduates have gone on to excel in positions that include systems administrators, applications support specialists, database administrators, computer programmers, computer analysts and computer support specialists. Businesses and organizations in every industry rely on computers and networks to create opportunities and solve challenges. With your FIU Online BS in Information Technology, you’ll be prepared to be an information technology specialist in any type and size of organization in a rapidly expanding job market. According to the Occupational Information Network (O*NET), the average median salary for computer and information systems analysts is $127,640 annually nationally, with a projected growth of 15%.
+  * ## [ Courses ](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php)
+For more information on the B.S. in Information Technology program please visit the [FIU Course Catalog](https://catalog.fiu.edu/programs/IT:BS). If you would like to view the specific courses related to the program, please use the breadcrumbs on the Course Catalog to go back and select the “Courses” tab.
+  * ## [ Admissions ](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php)
+For more information on the admissions process and how to apply please visit the [FIU Admissions](https://admissions.fiu.edu/how-to-apply/apply/index.html) website. 
+  * ## [ Tuition ](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php)
+We’re thrilled that you’re considering online education and want you to know exactly what to expect for tuition and fees. Education is an investment in your future. Use the following [student tuition and fees calculator](https://controller.fiu.edu/departments/student-financials-systems/bursar-cashiers/calculator/) to determine your costs.
+  * ## [ Top Faculty ](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php)
+**Deng Pan**
+Deng Pan received his doctoral degree in computer science from State University of New York at Stony Brook in 2007. His research interests are generally in high performance switch design and high-speed networking. His current research focuses on network function virtualization, data center networking, and energy efficient networking. He has published over fifty peer-reviewed papers in leading refereed journals and conferences, including the IEEE Transactions on Computers, IEEE Transactions on Communications, IEEE INFOCOM, and IEEE International Parallel and Distributed Processing Symposium. He has served as local arrangement co-chair or technical program committee member in many international conferences, including IEEE INFOCOM, IEEE GLOBECOM, and ICPP.
+**Richard Whittaker**
+Richard Whittaker’s interests are both computer science and economics and he holds doctoral degrees in both fields. His research specializes in the dynamics of complex systems to analyze global financial arbitrage. He has been involved in the development and deployment of algorithmic trading systems and has specialized in Global structural components, with a focus on manufacturing processes. He has over 20 years of hands-on experience in the metal fabrication trade. His research and educational interests include technology integration, algorithmic trading, financial economics and international economics as they pertain to the global commodity markets.
+**Sergio Pisano**
+Sergio Pisano is an engineer with a passion for teaching and technology. He received his Bachelor of Science in Systems Engineering at Universidad Metropolitana in Caracas, Venezuela, Master of Science in Telecommunications and Networking at Florida International University in Miami, Florida, and Doctor of Education at Northeastern University in Boston, Massachusetts. He has worked in a variety of information technology positions and has been teaching since 2011. His interests include students’ engagement, game-based learning, and novel teaching methodologies.
+**Pat McDermott-Wells**
+Pat McDermott-Wells has over 35 years as a professional software developer and system software specialist, from mainframes to PCs. She “shares her passion for technology to help launch the next generation of experts.” In 1977, she received her B.A. in Mathematics from the University of Miami and then continued at UM and completing her M.S. in Management Science/Operations Research in 1979. McDermott-Wells completed her doctoral degree in 2015 in Computer Information Systems from Nova Southeastern University. She is the recipient of numerous recognitions and awards. Her research and educational interests are in software/technology for blind students to do math and alternative input technologies.
+
+
+[ ![fiuonline.fiu.edu](https://fiuonline.fiu.edu/_assets/images/icons/outside-page.svg) Current Rankings List  ](https://fiuonline.fiu.edu/about-us/rankings-and-accreditations.php)
+[ ![fiuonline.fiu.edu](https://fiuonline.fiu.edu/_assets/images/icons/calendar-icon.svg) Undergraduate Student Application Deadlines ](https://fiuonline.fiu.edu/special-admissions-dates/index.php)
+![fiuonline.fiu.edu](https://fiuonline.fiu.edu/_assets/images/icons/creditsrequired.svg)
+##  120  Credits Required
+![fiuonline.fiu.edu](https://fiuonline.fiu.edu/_assets/images/icons/tuition.svg)
+##  235.57 Per Credit Hour (In-State) + Fees
+![fiuonline.fiu.edu](https://fiuonline.fiu.edu/_assets/images/icons/tuition.svg)
+##  648.87 Per Credit Hour (Out-of-State) + Fees
+* Total tuition and fees are subject to change.
+## Highlights
+  * Fully online degree
+  * Program start date: Fall, Spring, Summer
+  * Become part of an exceptional community and make the most of your education. Join the [Honors College](https://fiuonline.fiu.edu/experience/student-services/development-opportunity/honors-college.php).
+  * [ABET Accreditation](https://amspub.abet.org/aps/name-search?searchType=institution&keyword=florida%20international%20 "ABET Accreditation")
+
+
+![Phone Icon](https://fiuonline.fiu.edu/_assets/images/icons/icon-phone.png) [855.940.1517](tel:+1-855-940-1517) [ ![Phone Icon](https://fiuonline.fiu.edu/_assets/images/icons/icon-phone.png) ](tel:+1-855-940-1517)
+[ ![Info Icon](https://fiuonline.fiu.edu/_assets/images/icons/icon-info-cta.svg) Request Info ](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php#request-information)
+## Call Us
+**Want to talk to someone?**
+[855.940.1517](tel:+1-855-940-1517) [855.940.1517](tel:+1-855-940-1517)
+## Connect
+[ ](https://www.instagram.com/fiuonline/) [ ](https://www.facebook.com/FIUOnline) [ ![FIU Online Twitter](https://fiuonline.fiu.edu/_assets/images/svgs/twitter-x-footer.svg) ](https://twitter.com/FIUOnline) [ ](https://www.linkedin.com/company/fiu-online)
+  * [ **Degrees** ](https://fiuonline.fiu.edu/programs/)
+  * [Graduate](https://fiuonline.fiu.edu/programs/graduate-degrees)
+  * [Undergraduate](https://fiuonline.fiu.edu/programs/undergraduate-degrees)
+  * [Certificate Programs](https://fiuonline.fiu.edu/programs/undergraduate-certificates)
+  * [Professional Licensure](https://www.fiu.edu/academics/professional-licensure/index.html)
+
+
+  * [ **Experience** ](https://fiuonline.fiu.edu/experience/index.php)
+  * [Success Stories](https://fiuonline.fiu.edu/experience/success-stories.php)
+  * [Student Life](https://fiuonline.fiu.edu/experience/student-life.php)
+  * [Student Services](https://fiuonline.fiu.edu/experience/student-services/index.php)
+  * [Events](https://fiuonline.fiu.edu/experience/events/)
+  * [FAQs](https://fiuonline.fiu.edu/experience/faq.php)
+
+
+  * [ **Resources** ](https://fiuonline.fiu.edu/resources/index.php)
+  * [Admissions](https://admissions.fiu.edu/)
+  * [Tuition Fee Calculator](https://controller.fiu.edu/departments/student-financials-systems/bursar-cashiers/calculator/)
+  * [Finances](https://onestop.fiu.edu/finances/)
+  * [FIU Online Scholarships](https://fiuonline.fiu.edu/resources/scholarships.php)
+  * [University Scholarships](https://scholarships.fiu.edu)
+
+
+  * [ **About Us** ](https://fiuonline.fiu.edu/about-us/index.php)
+  * [Rankings and Accreditations](https://fiuonline.fiu.edu/about-us/rankings-and-accreditations.php)
+  * [Corporate Partnerships](https://fiuonline.fiu.edu/about-us/business-development/)
+  * [State Authorizations and Partnerships](https://fiuonline.fiu.edu/about-us/state-authorizations-and-partnerships.php)
+  * [Our Faculty](https://fiuonline.fiu.edu/about-us/faculty.php)
+  * [Our Story](https://fiuonline.fiu.edu/about-us/our-story.php)
+  * [Why FIU Online](https://fiuonline.fiu.edu/about-us/why-fiu-online.php)
+  * [Online Program Experience (OPX)](https://fiuonline.fiu.edu/about-us/online-program-experience.php)
+  * [Story Hub](https://fiuonline.fiu.edu/about-us/story-hub/index.php)
+  * [Take a Tour](https://fiuonline.fiu.edu/about-us/take-a-tour.php)
+  * [Website Feedback](https://fiuonline.fiu.edu/feedback)
+
+
+  * [ **Contact Us** ](https://fiuonline.fiu.edu/contact-us/)
+  * [Call us: 855-940-1517](tel:+1-855-940-1517)
+  * [Request Info](https://fiuonline.fiu.edu/contact-us/request-info/)
+  * [Schedule an Appointment](https://fiuonline.fiu.edu/contact-us/#schedule-appointment)
+
+
+  * [Digital Accessibility Policy](https://policies.fiu.edu/policy/927)
+  * [Digital Communications Standards Policy](https://policies.fiu.edu/policy/755)
+  * [Privacy Policy](https://fiuonline.fiu.edu/about-us/privacy-policy.php)
+  * [Sitemap](https://fiuonline.fiu.edu/site-map/)
+
+
+  * [Nondiscrimination](https://ace.fiu.edu/civil-rights-and-accessibility/harassment-and-discrimination/)
+  * [Title IX](https://ace.fiu.edu/title-ix/)
+  * [Report Discrimination or Harassment](https://report.fiu.edu/)
+
+
+[×](https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php)
+### Quick Links
+[ Scholarships](https://fiuonline.fiu.edu/tuition-and-aid/scholarships.php) [ Tuition Calculator](https://controller.fiu.edu/departments/student-financials-systems/bursar-cashiers/calculator/) [ Success Coaches](https://fiuonline.fiu.edu/current-students/success-coaches/) [ Admissions](https://fiuonline.fiu.edu/admissions/index.php) [ Class Search](https://fiuonline.fiu.edu/current-students/class-search/) [ FIU Canvas Help](https://canvas.fiu.edu/support/)
+### Information for...
+[Future Students](https://fiuonline.fiu.edu/) [Current Students](https://fiuonline.fiu.edu/current-students/) [Faculty & Administration](https://fiuonline.fiu.edu/faculty-admin/) [Continuing Education](https://learnermarketplace.fiu.edu)
+By submitting this request for information, I hereby expressly consent to be contacted by email, auto-dialed and/or pre-recorded telephone calls, and/or SMS messages from or on behalf of FIU Online and/or its fulfillment partners at the telephone number I provided above, including my cellular number, even if I am on a corporate, State or Federal Do-Not-Call list. By signing, I certify that I am the owner of the wireless phone and/or email provided by me. Consent shall continue unless revoked by me in writing. I understand that my consent is not a condition to receive the information, but if I do not consent I will have to contact FIU Online at onlineprograms@fiu.edu myself.
+×
+Recaptcha requires verification. 
+[Privacy](https://www.google.com/intl/en/policies/privacy/) - [Terms](https://www.google.com/intl/en/policies/terms/)
+protected by **reCAPTCHA**
+[Privacy](https://www.google.com/intl/en/policies/privacy/) - [Terms](https://www.google.com/intl/en/policies/terms/)
+Live chat:Chat With Application Coach

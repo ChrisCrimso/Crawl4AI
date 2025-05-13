@@ -1,0 +1,307 @@
+---
+url: https://www.fiu.edu/admissions/transfer-guide/index.html
+site: CampusLabs
+crawled_at: 2025-05-13T13:40:58.837366
+title: Transfer Guide | 
+					Florida International University in Miami, FL
+---
+
+[Skip to Main Content](https://www.fiu.edu/admissions/transfer-guide/index.html#main-content)
+[Florida International University![Florida International University Homepage](https://digicdn.fiu.edu/v1/_assets/images/fiu-main-logo.png)](https://www.fiu.edu/)
+  * [FIU Portals](https://www.fiu.edu/admissions/transfer-guide/index.html)
+    * ##### [Back](javascript:void\(0\))
+    * [FIU Portals](https://www.fiu.edu/admissions/transfer-guide/index.html)
+    * [MyFIU](https://my.fiu.edu)
+    * [FIU Canvas](https://canvas.fiu.edu)
+    * [FIU Email](http://mail.fiu.edu/)
+
+
+[Search](https://www.fiu.edu/admissions/transfer-guide/index.html)[Menu](https://www.fiu.edu/admissions/transfer-guide/index.html)
+  * [![FIU Homepage](https://www.fiu.edu/_assets/images/fiu-white-logo.png)](https://www.fiu.edu/index.html)
+  * About
+    * Get to Know FIU
+From top-ranked academic programs to top-tier research designation, FIU is a South Florida anchor institution and a solutions center for the world’s toughest challenges.
+In this Section
+      * [About Overview ](https://www.fiu.edu/about/index.html)
+      * [Mission and Vision](https://www.fiu.edu/about/mission-and-vision/index.html)
+      * [Rankings & Facts](https://www.fiu.edu/about/rankings-facts/index.html)
+      * [Administration](https://www.fiu.edu/about/administration/index.html)
+      * [Contact Us](https://www.fiu.edu/about/contact-us/index.html)
+Related Links
+      * [FIU News](https://news.fiu.edu/)
+      * [Student Consumer Information](https://www.fiu.edu/about/student-consumer-information/index.html)
+  * Locations
+    * Think Local, Go Global
+With over 58,000 students across South Florida, around the globe, and even online, FIU opens a world of opportunities to explore and gain a deeper understanding of our increasingly international community.
+In this Section
+      * [Locations Overview ](https://www.fiu.edu/locations/index.html)
+      * [Modesto A. Maidique](https://www.fiu.edu/locations/mmc/index.html)
+      * [Biscayne Bay](https://www.fiu.edu/locations/bbc/index.html)
+      * [Engineering Center](https://www.fiu.edu/locations/engineering-center/index.html)
+      * [FIU at I-75](https://www.fiu.edu/locations/fiu-at-i75/index.html)
+      * [FIU Downtown on Brickell](https://www.fiu.edu/locations/downtown-at-brickell/index.html)
+      * [Miami Beach Urban Studios](https://www.fiu.edu/locations/miami-beach-urban-studios/index.html)
+Related Links
+      * [Aquarius Reef Base](https://aquarius.fiu.edu/)
+      * [The Wolfsonian—FIU](https://wolfsonian.org/)
+      * [Patricia & Phillip Frost Art Museum](https://frost.fiu.edu/)
+      * [Jewish Museum of Florida](https://jmof.fiu.edu/)
+  * Admissions
+    * Ready to Get Started?
+The start of your journey is just an application away. Whether in-person or online, explore what FIU ― Miami's only public research university ― has to offer and get started today.
+In this Section
+      * [Admissions Overview ](https://www.fiu.edu/admissions/index.html)
+      * [Apply](https://www.fiu.edu/admissions/apply/index.html)
+      * [Visit](https://admissions.fiu.edu/experience-fiu/campus-tours/index.html)
+      * [Costs & Aid](https://www.fiu.edu/admissions/costs-and-aid/index.html)
+      * [Freshman Guide](https://www.fiu.edu/admissions/freshman-guide/index.html)
+      * [Transfer Guide](https://www.fiu.edu/admissions/transfer-guide/index.html)
+      * [International Guide](https://www.fiu.edu/admissions/international-guide/index.html)
+      * [Graduate Guide](https://www.fiu.edu/admissions/graduate-guide/index.html)
+Related Links
+      * [High School Students](https://admissions.fiu.edu/how-to-apply/high-school-student/index.html)
+      * [Guest Students](https://onestop.fiu.edu/admissions/submit-applications/non-degree-student/)
+      * [Returning Students](https://admissions.fiu.edu/how-to-apply/returning-applicant/index.html)
+      * [Parents and Counselors](https://admissions.fiu.edu/#parents-and-counselors)
+  * Academics
+    * There’s a Degree for You
+From the humanities to STEM, FIU offers more than 190 degrees, including top-ranked fully online programs, to ensure there's an FIU degree that matches your interests and lifestyle.
+In this Section
+      * [Academics Overview ](https://www.fiu.edu/academics/index.html)
+      * [Degrees & Programs](https://www.fiu.edu/academics/degrees-and-programs/index.html)
+      * [Colleges & Schools](https://www.fiu.edu/academics/colleges-schools/index.html)
+      * [Centers & Institutes](https://www.fiu.edu/academics/centers-and-institutes/index.php)
+      * [Student Support](https://www.fiu.edu/academics/student-support/index.html)
+      * [Professional Licensure ](https://www.fiu.edu/academics/professional-licensure/index.html)
+Related Links
+      * [Canvas](https://canvas.fiu.edu)
+      * [MyFIU](https://my.fiu.edu/)
+      * [FIU Online](https://fiuonline.fiu.edu/)
+      * [Libraries](https://library.fiu.edu/)
+      * [Global Learning](https://goglobal.fiu.edu/)
+  * Research
+    * Answering the Challenge
+Our researchers take on the toughest problems of our time to create marketable solutions. Half a century, 300+ patents and more than $2 billion in awards later, we're just getting started.
+In this Section
+      * [Research Overview ](https://www.fiu.edu/research/index.html)
+Related Links
+      * [Office of Research and Economic Development](http://research.fiu.edu/)
+      * [FIU Discovery](https://discovery.fiu.edu/)
+      * [Research News](https://news.fiu.edu/tag/research)
+  * Student Life
+    * Get Involved, Be A Panther
+There's so many ways to be more than just a student: join a club, go tailgating, visit one of our museums or take in a concert. You'll also have everything you need for a complete on-campus experience.
+In this Section
+      * [Student Life Overview ](https://www.fiu.edu/student-life/index.html)
+      * [Student Involvement ](https://www.fiu.edu/student-life/student-involvement/index.html)
+      * [Campus Highlights](https://www.fiu.edu/student-life/campus-highlights/index.html)
+      * [Arts & Culture](https://www.fiu.edu/student-life/arts-and-culture/index.html)
+      * [Recreation & the Outdoors](https://www.fiu.edu/student-life/recreation-the-outdoors/index.html)
+      * [Federal Relief](https://www.fiu.edu/federal-relief/index.html)
+Related Links
+      * [Student Affairs](https://www.fiu.edu/admissions/transfer-guide/index.html)
+      * [Calendar](https://calendar.fiu.edu/)
+  * Athletics
+    * Unleash Your Inner Panther
+Catch an exciting game in more than 17 Division-I sports ― and rep your alma mater while you cheer on future All Stars and gold medalists.
+In this Section
+      * [Athletics Overview ](https://www.fiu.edu/athletics/index.html)
+Related Links
+      * [Get Tickets](https://fiutickets.com/tickets/events)
+      * [Shop FIU Gear](http://fiu.shoptruespirit.com/)
+      * [Recreation & the Outdoors](https://www.fiu.edu/student-life/recreation-the-outdoors/index.html)
+  * Alumni & Giving
+    * Be Part of the FIU Family
+With a network of more than 200,000, FIU is the alma mater of leaders and influencers around the world. With the support of our FIU family, we're changing lives and making a difference.
+In this Section
+      * [Alumni & Giving Overview ](https://www.fiu.edu/alumni-and-giving/index.html)
+Related Links
+      * [Alumni Association](https://fiualumni.com/)
+      * [Giving to FIU](https://give.fiu.edu/)
+
+
+[ Close ](https://www.fiu.edu/admissions/transfer-guide/index.html)
+  * [Home](https://www.fiu.edu/index.html)
+  * About
+    * [About Overview](https://www.fiu.edu/about/index.html)
+    * [Mission and Vision](https://www.fiu.edu/about/mission-and-vision/index.html)
+    * [Rankings & Facts](https://www.fiu.edu/about/rankings-facts/index.html)
+    * [Administration](https://www.fiu.edu/about/administration/index.html)
+    * [Contact Us](https://www.fiu.edu/about/contact-us/index.html)
+    *       * [FIU News](https://news.fiu.edu/)
+      * [Student Consumer Information](https://www.fiu.edu/about/student-consumer-information/index.html)
+  * Locations
+    * [Locations Overview](https://www.fiu.edu/locations/index.html)
+    * [Modesto A. Maidique](https://www.fiu.edu/locations/mmc/index.html)
+    * [Biscayne Bay](https://www.fiu.edu/locations/bbc/index.html)
+    * [Engineering Center](https://www.fiu.edu/locations/engineering-center/index.html)
+    * [FIU at I-75](https://www.fiu.edu/locations/fiu-at-i75/index.html)
+    * [FIU Downtown on Brickell](https://www.fiu.edu/locations/downtown-at-brickell/index.html)
+    * [Miami Beach Urban Studios](https://www.fiu.edu/locations/miami-beach-urban-studios/index.html)
+    *       * [Aquarius Reef Base](https://aquarius.fiu.edu/)
+      * [The Wolfsonian—FIU](https://wolfsonian.org/)
+      * [Patricia & Phillip Frost Art Museum](https://frost.fiu.edu/)
+      * [Jewish Museum of Florida](https://jmof.fiu.edu/)
+  * Admissions
+    * [Admissions Overview](https://www.fiu.edu/admissions/index.html)
+    * [Apply](https://www.fiu.edu/admissions/apply/index.html)
+    * [Visit](https://admissions.fiu.edu/experience-fiu/campus-tours/index.html)
+    * [Costs & Aid](https://www.fiu.edu/admissions/costs-and-aid/index.html)
+    * [Freshman Guide](https://www.fiu.edu/admissions/freshman-guide/index.html)
+    * [Transfer Guide](https://www.fiu.edu/admissions/transfer-guide/index.html)
+    * [International Guide](https://www.fiu.edu/admissions/international-guide/index.html)
+    * [Graduate Guide](https://www.fiu.edu/admissions/graduate-guide/index.html)
+    *       * [High School Students](https://admissions.fiu.edu/how-to-apply/high-school-student/index.html)
+      * [Guest Students](https://onestop.fiu.edu/admissions/submit-applications/non-degree-student/)
+      * [Returning Students](https://admissions.fiu.edu/how-to-apply/returning-applicant/index.html)
+      * [Parents and Counselors](https://admissions.fiu.edu/#parents-and-counselors)
+  * Academics
+    * [Academics Overview](https://www.fiu.edu/academics/index.html)
+    * [Degrees & Programs](https://www.fiu.edu/academics/degrees-and-programs/index.html)
+    * [Colleges & Schools](https://www.fiu.edu/academics/colleges-schools/index.html)
+    * [Centers & Institutes](https://www.fiu.edu/academics/centers-and-institutes/index.php)
+    * [Student Support](https://www.fiu.edu/academics/student-support/index.html)
+    * [Professional Licensure ](https://www.fiu.edu/academics/professional-licensure/index.html)
+    *       * [Canvas](https://canvas.fiu.edu)
+      * [MyFIU](https://my.fiu.edu/)
+      * [FIU Online](https://fiuonline.fiu.edu/)
+      * [Libraries](https://library.fiu.edu/)
+      * [Global Learning](https://goglobal.fiu.edu/)
+  * Research
+    * [Research Overview](https://www.fiu.edu/research/index.html)
+    *       * [Office of Research and Economic Development](http://research.fiu.edu/)
+      * [FIU Discovery](https://discovery.fiu.edu/)
+      * [Research News](https://news.fiu.edu/tag/research)
+  * Student Life
+    * [Student Life Overview](https://www.fiu.edu/student-life/index.html)
+    * [Student Involvement ](https://www.fiu.edu/student-life/student-involvement/index.html)
+    * [Campus Highlights](https://www.fiu.edu/student-life/campus-highlights/index.html)
+    * [Arts & Culture](https://www.fiu.edu/student-life/arts-and-culture/index.html)
+    * [Recreation & the Outdoors](https://www.fiu.edu/student-life/recreation-the-outdoors/index.html)
+    * [Federal Relief](https://www.fiu.edu/federal-relief/index.html)
+    *       * [Student Affairs](https://www.fiu.edu/admissions/transfer-guide/index.html)
+      * [Calendar](https://calendar.fiu.edu/)
+  * Athletics
+    * [Athletics Overview](https://www.fiu.edu/athletics/index.html)
+    *       * [Get Tickets](https://fiutickets.com/tickets/events)
+      * [Shop FIU Gear](http://fiu.shoptruespirit.com/)
+      * [Recreation & the Outdoors](https://www.fiu.edu/student-life/recreation-the-outdoors/index.html)
+  * Alumni & Giving
+    * [Alumni & Giving Overview](https://www.fiu.edu/alumni-and-giving/index.html)
+    *       * [Alumni Association](https://fiualumni.com/)
+      * [Giving to FIU](https://give.fiu.edu/)
+
+
+[Close ](https://www.fiu.edu/admissions/transfer-guide/index.html)
+| | [×](javascript:void\(0\) "Clear search box")  
+---|---  
+search|   
+##### Quick Links
+  * [Phonebook](https://phonebook.fiu.edu)
+  * [Parking & Transportation](https://parking.fiu.edu/)
+  * [Wellness & Recreation Centers](https://www.fiu.edu/admissions/transfer-guide/index.html)
+  * [Campus Maps](http://campusmaps.fiu.edu/)
+  * [Libraries](https://library.fiu.edu/)
+  * [Wi-Fi/Internet Access](https://network.fiu.edu/)
+  * [Calendar](https://calendar.fiu.edu/)
+  * [Dining & Shopping](https://shop.fiu.edu/)
+  * [Course Catalog](https://catalog.fiu.edu/)
+  * [FIU Police](https://police.fiu.edu/)
+  * [Bookstore](https://shop.fiu.edu/retail/barnes-noble/course-materials/)
+  * [OneStop](https://onestop.fiu.edu/)
+  * [A to Z Index](https://www.fiu.edu/atoz/index.html)
+
+
+##### Information for…
+  * [Future Students & Parents](https://www.fiu.edu/information-for/future-students-parents.html)
+  * [Current Students](https://www.fiu.edu/information-for/current-students.html)
+  * [Faculty & Staff](https://www.fiu.edu/information-for/faculty-staff.html)
+
+
+# Transfer Guide You're About to Do _Something Great_
+  1. [Home](https://www.fiu.edu/index.html)/
+  2. [Admissions](https://www.fiu.edu/admissions/index.html)/
+  3. [Get Started as a Transfer](https://www.fiu.edu/admissions/transfer-guide/index.html)
+
+
+In This Section
+  * [Jump to Degrees](https://www.fiu.edu/admissions/transfer-guide/index.html#2)
+  * [Jump to Student Life](https://www.fiu.edu/admissions/transfer-guide/index.html#3)
+  * [Jump to Research](https://www.fiu.edu/admissions/transfer-guide/index.html#4)
+  * [Jump to How to Apply](https://www.fiu.edu/admissions/transfer-guide/index.html#5)
+
+
+## Take Your Education to the Next Level
+One in every three FIU students chose to finish their degree with us after starting somewhere else. That's because FIU connects students with more opportunities to do real research, to make connections with industry leaders and to get support so you can start your career sooner.
+## Degrees
+### Set Your Goals Here
+FIU offers more than 190 programs — including online degrees — in 10 colleges. Whether you're thinking about graduate school or you're ready to get out there and start your career, we have a degree program that fits your future.
+[Browse Degrees List](https://www.fiu.edu/academics/degrees-and-programs/index.html?degree-type=Undergraduate)
+![](https://www.fiu.edu/_assets/images/admissions/honors-college-refresh.jpg)
+### Reach Higher
+Starting FIU in Honors College can open doors to priority registration, scholarships, unique study abroad programs and so much more.
+[Consider Honors College](http://honors.fiu.edu/)
+![](https://www.fiu.edu/_assets/images/admissions/student-support-refresh-2.jpg)
+### We're Here to Help
+Get on track for your degree by talking with an admissions counselor. Counselors can help you if you are having trouble with your enrollment and walk you through the admissions process.
+[Ask an Admissions Counselor](https://admissions.fiu.edu/contact/index.html#2)
+## Student Life
+Just because you're not a freshman doesn't mean you shouldn't get out there. Transfer students make up more than half of our undergraduate student body. Meet students like you in nationally-recognized honors societies, academic groups, student organizations and more.
+[Explore Student Life](https://www.fiu.edu/student-life/index.html)
+  * [![](https://www.fiu.edu/_assets/images/admissions/tau-sigma.jpg)Tau Sigma](https://transfer.fiu.edu/resources/tau-sigma/)
+  * [![](https://www.fiu.edu/_assets/images/admissions/transfer-ambassador.jpg)Transfer Mentorship](https://transfer.fiu.edu/resources/transfer2transfer-mentor-collective/)
+
+
+## Research
+### Where Will Our Research Take You?
+A Carnegie Foundation R1 top-tier institution, FIU is a solutions center for world's most pressing challenges. Driven by a spirit of invention, a drive for innovation, and the support of more than $100 million of awards, our research opportunities can take you from the top of the world to the bottom of the ocean. Where will your journey take you?
+[Explore our Research](https://www.fiu.edu/research/index.html)
+## How To Apply
+![](https://www.fiu.edu/_assets/images/admissions/student-refresh.jpg)
+### Become a Panther
+FIU has the resources you need to finish your bachelor's. We'll help you with everything from tutoring to getting an internship. You could be starting your career even before you graduate. It's time to set your goals and chase after them. We know you have potential. Let FIU help you get there.
+[Start Application Checklist](https://admissions.fiu.edu/how-to-apply/transfer-applicant/index.html)
+[![Florida International University Homepage](https://www.fiu.edu/_assets/images/logo.png)](https://www.fiu.edu/index.html)
+## Connect
+  * [Contact Us](https://www.fiu.edu/about/contact-us/index.html)
+  * [FIU News](https://news.fiu.edu/)
+
+
+  * [](https://www.instagram.com/fiuinstagram/)
+  * [](https://www.linkedin.com/school/florida-international-university/)
+  * [](https://www.facebook.com/floridainternational)
+  * [](https://twitter.com/fiu)
+  * [](https://www.youtube.com/user/FloridaInternational)
+  * [](https://flickr.com/photos/fiu)
+
+
+## Explore FIU
+  * [About](https://www.fiu.edu/about/index.html)
+  * [Admissions](https://www.fiu.edu/admissions/index.html)
+  * [Academics](https://www.fiu.edu/academics/index.html)
+  * [Locations](https://www.fiu.edu/locations/index.html)
+  * [Research](https://www.fiu.edu/research/index.html)
+  * [Student Life](https://www.fiu.edu/student-life/index.html)
+  * [Athletics](https://www.fiu.edu/athletics/index.html)
+  * [Alumni & Giving](https://www.fiu.edu/alumni-and-giving/index.html)
+  * [Careers at FIU](https://hr.fiu.edu/careers/)
+  * [Estimate Cost of Attendance](https://onestop.fiu.edu/finances/estimate-your-costs/)
+
+
+## Tools & Resources
+  * [Phonebook](https://phonebook.fiu.edu) (Directory)
+  * [University Calendar](https://calendar.fiu.edu/)
+  * [Campus Maps](http://campusmaps.fiu.edu/)
+  * [MyFIU](https://my.fiu.edu/)
+  * [Canvas](https://canvas.fiu.edu)
+  * [FIU Email](http://mail.fiu.edu/)
+  * [System Status](https://italerts.fiu.edu)
+  * [Reserve Space](https://reservespace.fiu.edu/make-reservation/)
+  * [Nondiscrimination](https://ace.fiu.edu/civil-rights-and-accessibility/harassment-and-discrimination/)
+  * [Title IX](https://ace.fiu.edu/title-ix/)
+  * [Report Discrimination or Harassment](https://report.fiu.edu/)
+
+
+© 2025 Florida International University |  Website by [Digital Communications](https://digicomm.fiu.edu) | [Web/Accessibility](https://accessibility.fiu.edu) | [Website Feedback](https://webforms.fiu.edu/view.php?id=370774)
+|   
+---|---
