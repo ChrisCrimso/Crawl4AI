@@ -635,13 +635,14 @@ async def crawl_with_deep_crawl(site_cfg: dict):
     # Enhanced handling for Emergency site
     elif site_cfg["name"] == "Emergency":
         print("\n⚠️ Emergency site - using strict domain filtering and crawling")
-        
+        #Something
         browser_cfg = BrowserConfig()
         # Use appropriate crawl depth for emergency site
         bfs = BFSDeepCrawlStrategy(max_depth=1, max_pages=200, include_external=False)
         md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
         cfg = CrawlerRunConfig(
             deep_crawl_strategy=bfs,
+
             markdown_generator=md_gen,
             cache_mode=CacheMode.BYPASS,
             exclude_external_links=True,
