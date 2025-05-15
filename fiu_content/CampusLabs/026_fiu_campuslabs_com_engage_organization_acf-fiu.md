@@ -1,7 +1,7 @@
 ---
 url: https://fiu.campuslabs.com/engage/organization/acf-fiu
 site: CampusLabs
-crawled_at: 2025-05-13T13:28:42.224535
+crawled_at: 2025-05-14T16:43:22.098942
 title: Adventist Christian Fellowship - Panther Connect
 ---
 
@@ -16,7 +16,6 @@ Miami,  FL 33199
 United States 
 Contact Email**E:** acf@secsda.org 
 Phone Number**P:** (305) 348-2397 
-[](http://www.secsda.org/acf)[](https://www.instagram.com/fiu_acf/)[](http://facebook.com/groups/36076898382/)
 [Contact](https://fiu.campuslabs.com/engage/organization/acf-fiu/contact)
 [View Gallery](https://fiu.campuslabs.com/engage/organization/acf-fiu/gallery)
 Gallery Image

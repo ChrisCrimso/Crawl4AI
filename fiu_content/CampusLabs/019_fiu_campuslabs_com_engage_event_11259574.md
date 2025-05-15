@@ -1,7 +1,7 @@
 ---
 url: https://fiu.campuslabs.com/engage/event/11259574
 site: CampusLabs
-crawled_at: 2025-05-13T13:40:58.333502
+crawled_at: 2025-05-14T16:43:13.005482
 title: Charter Schools USA Information Session- Calling Education Majors & All Majors - Panther Connect
 ---
 
@@ -13,7 +13,6 @@ Add To [Google Calendar](https://fiu.campuslabs.com/engage/event/11259574/google
 **Location**
 Online
 **Online Location**
-[Join Event Online](https://go.fiu.edu/charterschools "Online Location Link")
 ## Online Location Instructions
 To make logging in easier once the workshop begins, please register on zoom: https://go.fiu.edu/charterschools
 ## Description

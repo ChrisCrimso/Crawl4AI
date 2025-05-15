@@ -26,6 +26,7 @@ FIU_SITES = {
     "catalog": {
         "name": "Catalog",
         "base_url": "https://catalog.fiu.edu",
+        "allowed_domains": ["catalog.fiu.edu"],  # Explicitly specify allowed domain
         # no 'sitemap_urls' key here
     },
     "athletics": {
@@ -50,7 +51,7 @@ FIU_SITES = {
     },
     "mymajor": {
         "name": "MyMajor",
-        "base_url": "https://mymajor.fiu.edu",
+        "base_url": "https://mymajor.fiu.edu/individual/215GEOSCBS",
         # no 'sitemap_urls' key here
     },
     
@@ -60,6 +61,16 @@ FIU_SITES = {
         "base_url": "https://onestop.fiu.edu",
         "sitemap_urls": ["https://onestop.fiu.edu/_assets/sitemap.xml"]
     },
+    "calendar": {
+        "name": "Calendar",
+        "base_url": "https://calendar.fiu.edu",
+        # no 'sitemap_urls' key here
+    },
+    "emergency": {
+        "name": "Emergency",
+        "base_url": "https://dem.fiu.edu",
+        # no 'sitemap_urls' key here
+    }
 }
 
 # ─── Helpers ────────────────────────────────────────────────────────────────
@@ -70,7 +81,10 @@ def create_markdown_filename(url: str, index: int = None) -> str:
     fn = fn[:100]
     if index is not None:
         fn = f"{index:03d}_{fn}"
-    return fn + ".md"
+    # Always add .md extension
+    if not fn.endswith(".md"):
+        fn += ".md"
+    return fn
 
 def save_markdown(content: str, metadata: dict, site_name: str, url: str, index: int = None):
     out_dir = Path("fiu_content") / site_name
@@ -85,11 +99,19 @@ def save_markdown(content: str, metadata: dict, site_name: str, url: str, index:
         f"title: {metadata.get('title','No title')}\n"
         f"---\n\n"
     )
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(front)
-        f.write(content or "")
-
-    print(f"💾 Saved: {filepath}")
+    
+    # Only save files with actual content or add a placeholder
+    if content and len(content.strip()) > 0:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(front)
+            f.write(content or "")
+        print(f"💾 Saved: {filepath}")
+    else:
+        # Add placeholder for empty content
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(front)
+            f.write("*Content could not be retrieved - this may be a page with dynamic JavaScript content.*\n")
+        print(f"⚠️ Saved with placeholder (no content): {filepath}")
 
 # ─── Sitemap parsing (with recursive fallback) ─────────────────────────────
 
@@ -207,42 +229,764 @@ async def crawl_with_deep_crawl(site_cfg: dict):
     host = urlparse(base).netloc.lower()
     print(f"\n🕷️ Deep crawling {site_cfg['name']} @ {base}")
 
+    # Special handling for catalog site
+    if site_cfg["name"] == "Catalog":
+        print("\n⚠️ Catalog site - using strict domain filtering and crawling")
+        
+        browser_cfg = BrowserConfig()
+        
+        # Use slightly deeper crawl for catalog with longer timeout
+        bfs = BFSDeepCrawlStrategy(max_depth=3, max_pages=200, include_external=False)
+        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
+        cfg = CrawlerRunConfig(
+            deep_crawl_strategy=bfs,
+            markdown_generator=md_gen,
+            cache_mode=CacheMode.BYPASS,
+            exclude_external_links=True,
+            check_robots_txt=True,
+            process_iframes=False,
+            remove_overlay_elements=True
+        )
+        
+        async with AsyncWebCrawler(config=browser_cfg) as cr:
+            # Strict catalog domain filtering
+            def strict_catalog_filter(url):
+                try:
+                    parsed = urlparse(url)
+                    
+                    # Must be exactly catalog.fiu.edu domain
+                    if parsed.netloc.lower() != "catalog.fiu.edu":
+                        print(f"🚫 Skipping non-catalog domain: {parsed.netloc}")
+                        return False
+                    
+                    # Skip file extensions
+                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico']):
+                        return False
+                    
+                    # Skip common external link patterns
+                    skip_patterns = [
+                        "redirect", "external", "outgoing", "goto", 
+                        "instagram", "facebook", "twitter", "linkedin",
+                        "mailto:", "tel:", "javascript:", "youtube"
+                    ]
+                    
+                    for pattern in skip_patterns:
+                        if pattern in url.lower():
+                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
+                            return False
+                            
+                    # Permitted catalog paths - only crawl specific sections
+                    allowed_paths = [
+                        "/", "/courses", "/programs", "/college-school-department",
+                        "/search", "/policies", "/resources"
+                    ]
+                    
+                    # Check if URL path starts with any allowed path
+                    path_allowed = any(parsed.path.lower().startswith(path.lower()) for path in allowed_paths)
+                    if not path_allowed:
+                        print(f"🚫 Skipping non-essential catalog path: {parsed.path}")
+                        return False
+                        
+                    return True
+                except Exception as e:
+                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
+                    return False
+                    
+            cr.link_filter = strict_catalog_filter
+            results = await cr.arun(base, config=cfg)
+            
+            # Filter results again to ensure we only process catalog.fiu.edu
+            catalog_only_results = []
+            for res in results:
+                try:
+                    if urlparse(res.url).netloc.lower() == "catalog.fiu.edu":
+                        catalog_only_results.append(res)
+                    else:
+                        print(f"⚠️ Filtered out non-catalog URL from results: {res.url}")
+                except:
+                    continue
+            
+            print(f"\n📊 Processing {len(catalog_only_results)} catalog pages (strictly catalog.fiu.edu domain only)...")
+            for idx, res in enumerate(catalog_only_results, start=1):
+                u = res.url
+                if res.success:
+                    try:
+                        content = ""
+                        if hasattr(res, "markdown"):
+                            if isinstance(res.markdown, str):
+                                content = res.markdown
+                            elif hasattr(res.markdown, "fit_markdown"):
+                                content = str(res.markdown.fit_markdown)
+                            else:
+                                content = str(res.markdown)
+                        metadata = getattr(res, "metadata", {})
+                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
+                        print(f"✅ {u}")
+                    except Exception as e:
+                        print(f"❌ Error processing {u}: {str(e)}")
+                else:
+                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
+                
+                # Add small delay between requests
+                await asyncio.sleep(1)
+        
+        return  # End catalog-specific processing
+
+    # Enhanced handling for SAS site which has many external links
+    elif site_cfg["name"] == "SAS":
+        print("\n⚠️ SAS site has many external links - using strict domain filtering")
+        
+        browser_cfg = BrowserConfig()
+        bfs = BFSDeepCrawlStrategy(max_depth=2, max_pages=200, include_external=False)
+        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
+        cfg = CrawlerRunConfig(
+            deep_crawl_strategy=bfs,
+            markdown_generator=md_gen,
+            cache_mode=CacheMode.BYPASS,
+            exclude_external_links=True,
+            check_robots_txt=True,
+            process_iframes=False,
+            remove_overlay_elements=True
+        )
+        
+        async with AsyncWebCrawler(config=browser_cfg) as cr:
+            # Strict SAS domain filtering with detailed logging
+            def strict_sas_filter(url):
+                try:
+                    parsed = urlparse(url)
+                    
+                    # Must be exactly sas.fiu.edu domain
+                    if parsed.netloc.lower() != "sas.fiu.edu":
+                        print(f"🚫 Skipping non-SAS domain: {parsed.netloc}")
+                        return False
+                    
+                    # Skip file extensions
+                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico']):
+                        return False
+                    
+                    # Skip common external link patterns
+                    skip_patterns = [
+                        "redirect", "external", "outgoing", "goto", 
+                        "instagram", "facebook", "twitter", "linkedin",
+                        "mailto:", "tel:", "javascript:", "youtube"
+                    ]
+                    
+                    for pattern in skip_patterns:
+                        if pattern in url.lower():
+                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
+                            return False
+                            
+                    # Permitted SAS paths - only crawl specific sections
+                    allowed_paths = [
+                        "/", "/news", "/about", "/departments", 
+                        "/research", "/centers", "/people",
+                        "/undergraduate", "/graduate", "/resources",
+                        "/partners", "/college-access", "/edeffect",
+                        "/vision-mission", "/pre-collegiate-programs", "/staff"
+                    ]
+                    
+                    # Check if URL path starts with any allowed path
+                    path_allowed = any(parsed.path.lower().startswith(path.lower()) for path in allowed_paths)
+                    if not path_allowed:
+                        print(f"🚫 Skipping non-essential SAS path: {parsed.path}")
+                        return False
+                        
+                    return True
+                except Exception as e:
+                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
+                    return False
+                    
+            cr.link_filter = strict_sas_filter
+            results = await cr.arun(base, config=cfg)
+            
+            # Filter results again to ensure we only process sas.fiu.edu
+            sas_only_results = []
+            for res in results:
+                try:
+                    if urlparse(res.url).netloc.lower() == "sas.fiu.edu":
+                        sas_only_results.append(res)
+                    else:
+                        print(f"⚠️ Filtered out non-SAS URL from results: {res.url}")
+                except:
+                    continue
+            
+            print(f"\n📊 Processing {len(sas_only_results)} SAS pages (strictly sas.fiu.edu domain only)...")
+            for idx, res in enumerate(sas_only_results, start=1):
+                u = res.url
+                if res.success:
+                    try:
+                        content = ""
+                        if hasattr(res, "markdown"):
+                            if isinstance(res.markdown, str):
+                                content = res.markdown
+                            elif hasattr(res.markdown, "fit_markdown"):
+                                content = str(res.markdown.fit_markdown)
+                            else:
+                                content = str(res.markdown)
+                        metadata = getattr(res, "metadata", {})
+                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
+                        print(f"✅ {u}")
+                    except Exception as e:
+                        print(f"❌ Error processing {u}: {str(e)}")
+                else:
+                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
+                
+                # Add delay to avoid overloading the server
+                await asyncio.sleep(2 if idx % 5 == 0 else 1)
+        
+        return  # End SAS-specific processing
+
+    # Enhanced handling for MainSite (www.fiu.edu)
+    elif site_cfg["name"] == "MainSite":
+        print("\n⚠️ Main FIU site - using strict domain filtering and crawling")
+        
+        browser_cfg = BrowserConfig()
+        # Use deeper crawl for main site
+        bfs = BFSDeepCrawlStrategy(max_depth=3, max_pages=300, include_external=False)
+        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
+        cfg = CrawlerRunConfig(
+            deep_crawl_strategy=bfs,
+            markdown_generator=md_gen,
+            cache_mode=CacheMode.BYPASS,
+            exclude_external_links=True,
+            check_robots_txt=True,
+            process_iframes=False,
+            remove_overlay_elements=True
+        )
+        
+        async with AsyncWebCrawler(config=browser_cfg) as cr:
+            # Strict Main FIU domain filtering with detailed logging
+            def strict_main_filter(url):
+                try:
+                    parsed = urlparse(url)
+                    
+                    # Must be exactly www.fiu.edu domain
+                    if parsed.netloc.lower() != "www.fiu.edu":
+                        print(f"🚫 Skipping non-main FIU domain: {parsed.netloc}")
+                        return False
+                    
+                    # Skip file extensions
+                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico']):
+                        return False
+                    
+                    # Skip common external link patterns
+                    skip_patterns = [
+                        "redirect", "external", "outgoing", "goto", 
+                        "instagram", "facebook", "twitter", "linkedin",
+                        "mailto:", "tel:", "javascript:", "youtube",
+                        "login", "signin", "auth"
+                    ]
+                    
+                    for pattern in skip_patterns:
+                        if pattern in url.lower():
+                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
+                            return False
+                            
+                    # Permitted main FIU paths - only crawl specific sections
+                    allowed_paths = [
+                        "/", "/about", "/admissions", "/academics", 
+                        "/college", "/school", "/directory", "/research",
+                        "/students", "/parents", "/alumni", "/faculty-staff",
+                        "/campus-life", "/careers", "/libraries", "/news",
+                        "/events", "/locations", "/programs", "/community"
+                    ]
+                    
+                    # Check if URL path starts with any allowed path
+                    path_allowed = any(parsed.path.lower().startswith(path.lower()) for path in allowed_paths)
+                    if not path_allowed:
+                        print(f"🚫 Skipping non-essential main FIU path: {parsed.path}")
+                        return False
+                        
+                    return True
+                except Exception as e:
+                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
+                    return False
+                    
+            cr.link_filter = strict_main_filter
+            results = await cr.arun(base, config=cfg)
+            
+            # Filter results again to ensure we only process www.fiu.edu
+            main_only_results = []
+            for res in results:
+                try:
+                    if urlparse(res.url).netloc.lower() == "www.fiu.edu":
+                        main_only_results.append(res)
+                    else:
+                        print(f"⚠️ Filtered out non-main FIU URL from results: {res.url}")
+                except:
+                    continue
+            
+            print(f"\n📊 Processing {len(main_only_results)} main FIU pages (strictly www.fiu.edu domain only)...")
+            for idx, res in enumerate(main_only_results, start=1):
+                u = res.url
+                if res.success:
+                    try:
+                        content = ""
+                        if hasattr(res, "markdown"):
+                            if isinstance(res.markdown, str):
+                                content = res.markdown
+                            elif hasattr(res.markdown, "fit_markdown"):
+                                content = str(res.markdown.fit_markdown)
+                            else:
+                                content = str(res.markdown)
+                        metadata = getattr(res, "metadata", {})
+                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
+                        print(f"✅ {u}")
+                    except Exception as e:
+                        print(f"❌ Error processing {u}: {str(e)}")
+                else:
+                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
+                
+                # Add delay to avoid overloading the server
+                await asyncio.sleep(2 if idx % 5 == 0 else 1)
+        
+        return  # End main FIU-specific processing
+
+    # Enhanced handling for MyMajor site
+    elif site_cfg["name"] == "MyMajor":
+        print("\n⚠️ MyMajor site - using strict domain filtering and crawling")
+        
+        browser_cfg = BrowserConfig()
+        # Use deeper crawl for MyMajor site
+        bfs = BFSDeepCrawlStrategy(max_depth=1, max_pages=300, include_external=False)
+        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
+        cfg = CrawlerRunConfig(
+            deep_crawl_strategy=bfs,
+            markdown_generator=md_gen,
+            cache_mode=CacheMode.BYPASS,
+            exclude_external_links=True,
+            check_robots_txt=True,
+            process_iframes=False,
+            remove_overlay_elements=True
+        )
+        
+        async with AsyncWebCrawler(config=browser_cfg) as cr:
+            # Strict MyMajor domain filtering with detailed logging
+            def strict_mymajor_filter(url):
+                try:
+                    parsed = urlparse(url)
+                    
+                    # Must be exactly mymajor.fiu.edu domain
+                    if parsed.netloc.lower() != "mymajor.fiu.edu":
+                        print(f"🚫 Skipping non-MyMajor domain: {parsed.netloc}")
+                        return False
+                    
+                    # Skip file extensions
+                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico']):
+                        return False
+                    
+                    # Skip common external link patterns
+                    skip_patterns = [
+                        "redirect", "external", "outgoing", "goto", 
+                        "instagram", "facebook", "twitter", "linkedin",
+                        "mailto:", "tel:", "javascript:", "youtube"
+                    ]
+                    
+                    for pattern in skip_patterns:
+                        if pattern in url.lower():
+                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
+                            return False
+                            
+                    return True
+                except Exception as e:
+                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
+                    return False
+                    
+            cr.link_filter = strict_mymajor_filter
+            results = await cr.arun(base, config=cfg)
+            
+            # Filter results again to ensure we only process mymajor.fiu.edu
+            mymajor_only_results = []
+            for res in results:
+                try:
+                    if urlparse(res.url).netloc.lower() == "mymajor.fiu.edu":
+                        mymajor_only_results.append(res)
+                    else:
+                        print(f"⚠️ Filtered out non-MyMajor URL from results: {res.url}")
+                except:
+                    continue
+            
+            print(f"\n📊 Processing {len(mymajor_only_results)} MyMajor pages (strictly mymajor.fiu.edu domain only)...")
+            for idx, res in enumerate(mymajor_only_results, start=1):
+                u = res.url
+                if res.success:
+                    try:
+                        content = ""
+                        if hasattr(res, "markdown"):
+                            if isinstance(res.markdown, str):
+                                content = res.markdown
+                            elif hasattr(res.markdown, "fit_markdown"):
+                                content = str(res.markdown.fit_markdown)
+                            else:
+                                content = str(res.markdown)
+                        metadata = getattr(res, "metadata", {})
+                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
+                        print(f"✅ {u}")
+                    except Exception as e:
+                        print(f"❌ Error processing {u}: {str(e)}")
+                else:
+                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
+                
+                # Add delay to avoid overloading the server
+                await asyncio.sleep(2 if idx % 5 == 0 else 1)
+        
+        return  # End MyMajor-specific processing
+
+    # Enhanced handling for Emergency site
+    elif site_cfg["name"] == "Emergency":
+        print("\n⚠️ Emergency site - using strict domain filtering and crawling")
+        
+        browser_cfg = BrowserConfig()
+        # Use appropriate crawl depth for emergency site
+        bfs = BFSDeepCrawlStrategy(max_depth=1, max_pages=200, include_external=False)
+        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
+        cfg = CrawlerRunConfig(
+            deep_crawl_strategy=bfs,
+            markdown_generator=md_gen,
+            cache_mode=CacheMode.BYPASS,
+            exclude_external_links=True,
+            check_robots_txt=True,
+            process_iframes=False,
+            remove_overlay_elements=True
+        )
+        
+        async with AsyncWebCrawler(config=browser_cfg) as cr:
+            # Strict Emergency domain filtering with detailed logging
+            def strict_emergency_filter(url):
+                try:
+                    parsed = urlparse(url)
+                    
+                    # Must be exactly dem.fiu.edu domain
+                    if parsed.netloc.lower() != "dem.fiu.edu":
+                        print(f"🚫 Skipping non-Emergency domain: {parsed.netloc}")
+                        return False
+                    
+                    # Skip file extensions
+                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico']):
+                        return False
+                    
+                    # Skip common external link patterns
+                    skip_patterns = [
+                        "redirect", "external", "outgoing", "goto", 
+                        "instagram", "facebook", "twitter", "linkedin",
+                        "mailto:", "tel:", "javascript:", "youtube",
+                        "login", "signin", "auth"
+                    ]
+                    
+                    for pattern in skip_patterns:
+                        if pattern in url.lower():
+                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
+                            return False
+                            
+                    # Permitted emergency paths - only crawl specific sections
+                    allowed_paths = [
+                        "/", "/about", "/alerts", "/emergency", 
+                        "/preparedness", "/resources", "/plans",
+                        "/training", "/contact", "/services",
+                        "/safety", "/procedures", "/information",
+                        "/response", "/recovery", "/mitigation",
+                        "/hurricane", "/weather", "/team"
+                    ]
+                    
+                    # Check if URL path starts with any allowed path
+                    path_allowed = any(parsed.path.lower().startswith(path.lower()) for path in allowed_paths)
+                    if not path_allowed:
+                        print(f"🚫 Skipping non-essential Emergency path: {parsed.path}")
+                        return False
+                        
+                    return True
+                except Exception as e:
+                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
+                    return False
+                    
+            cr.link_filter = strict_emergency_filter
+            results = await cr.arun(base, config=cfg)
+            
+            # Filter results again to ensure we only process dem.fiu.edu
+            emergency_only_results = []
+            for res in results:
+                try:
+                    if urlparse(res.url).netloc.lower() == "dem.fiu.edu":
+                        emergency_only_results.append(res)
+                    else:
+                        print(f"⚠️ Filtered out non-Emergency URL from results: {res.url}")
+                except:
+                    continue
+            
+            print(f"\n📊 Processing {len(emergency_only_results)} Emergency pages (strictly dem.fiu.edu domain only)...")
+            for idx, res in enumerate(emergency_only_results, start=1):
+                u = res.url
+                if res.success:
+                    try:
+                        content = ""
+                        if hasattr(res, "markdown"):
+                            if isinstance(res.markdown, str):
+                                content = res.markdown
+                            elif hasattr(res.markdown, "fit_markdown"):
+                                content = str(res.markdown.fit_markdown)
+                            else:
+                                content = str(res.markdown)
+                        metadata = getattr(res, "metadata", {})
+                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
+                        print(f"✅ {u}")
+                    except Exception as e:
+                        print(f"❌ Error processing {u}: {str(e)}")
+                else:
+                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
+                
+                # Add delay to avoid overloading the server
+                await asyncio.sleep(2 if idx % 5 == 0 else 1)
+        
+        return  # End Emergency-specific processing
+
+    # Enhanced handling for CampusLabs site
+    elif site_cfg["name"] == "CampusLabs":
+        print("\n⚠️ CampusLabs site - using strict domain filtering and crawling")
+        
+        browser_cfg = BrowserConfig()
+        # Use deeper crawl for CampusLabs
+        bfs = BFSDeepCrawlStrategy(max_depth=3, max_pages=300, include_external=False)
+        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
+        cfg = CrawlerRunConfig(
+            deep_crawl_strategy=bfs,
+            markdown_generator=md_gen,
+            cache_mode=CacheMode.BYPASS,
+            exclude_external_links=True,
+            check_robots_txt=True,
+            process_iframes=False,
+            remove_overlay_elements=True
+        )
+        
+        async with AsyncWebCrawler(config=browser_cfg) as cr:
+            # Strict CampusLabs domain filtering
+            def strict_campuslabs_filter(url):
+                try:
+                    parsed = urlparse(url)
+                    
+                    # Only allow fiu.campuslabs.com domain
+                    campuslabs_domain = "fiu.campuslabs.com"
+                    if parsed.netloc.lower() != campuslabs_domain:
+                        print(f"🚫 Skipping non-CampusLabs domain: {parsed.netloc}")
+                        return False
+                    
+                    # Skip file extensions
+                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico']):
+                        return False
+                    
+                    # Skip common external link patterns
+                    skip_patterns = [
+                        "redirect", "external", "outgoing", "goto", 
+                        "instagram", "facebook", "twitter", "linkedin",
+                        "mailto:", "tel:", "javascript:", "youtube",
+                        "login", "signin", "auth"
+                    ]
+                    
+                    for pattern in skip_patterns:
+                        if pattern in url.lower():
+                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
+                            return False
+                    
+                    # Make sure the URL has the engage path (most important content)
+                    if "/engage" not in url.lower() and url.lower() != campuslabs_domain:
+                        print(f"🚫 Skipping non-engage CampusLabs path: {url}")
+                        return False
+                            
+                    return True
+                except Exception as e:
+                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
+                    return False
+                    
+            cr.link_filter = strict_campuslabs_filter
+            results = await cr.arun(base, config=cfg)
+            
+            # Filter results again to ensure we only process fiu.campuslabs.com
+            campuslabs_only_results = []
+            for res in results:
+                try:
+                    if urlparse(res.url).netloc.lower() == "fiu.campuslabs.com":
+                        campuslabs_only_results.append(res)
+                    else:
+                        print(f"⚠️ Filtered out non-CampusLabs URL from results: {res.url}")
+                except:
+                    continue
+            
+            print(f"\n📊 Processing {len(campuslabs_only_results)} CampusLabs pages (strictly fiu.campuslabs.com domain only)...")
+            for idx, res in enumerate(campuslabs_only_results, start=1):
+                u = res.url
+                if res.success:
+                    try:
+                        content = ""
+                        if hasattr(res, "markdown"):
+                            if isinstance(res.markdown, str):
+                                content = res.markdown
+                            elif hasattr(res.markdown, "fit_markdown"):
+                                content = str(res.markdown.fit_markdown)
+                            else:
+                                content = str(res.markdown)
+                        metadata = getattr(res, "metadata", {})
+                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
+                        print(f"✅ {u}")
+                    except Exception as e:
+                        print(f"❌ Error processing {u}: {str(e)}")
+                else:
+                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
+                
+                # Add delay to avoid overloading the server
+                await asyncio.sleep(2 if idx % 5 == 0 else 1)
+        
+        return  # End CampusLabs-specific processing
+
+    # Enhanced handling for Calendar site
+    elif site_cfg["name"] == "Calendar":
+        print("\n⚠️ Calendar site - using strict domain filtering and crawling")
+        
+        browser_cfg = BrowserConfig()
+        # Use appropriate crawl depth for calendar site
+        bfs = BFSDeepCrawlStrategy(max_depth=4, max_pages=300, include_external=False)
+        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
+        cfg = CrawlerRunConfig(
+            deep_crawl_strategy=bfs,
+            markdown_generator=md_gen,
+            cache_mode=CacheMode.BYPASS,
+            exclude_external_links=True,
+            check_robots_txt=True,
+            process_iframes=False,
+            remove_overlay_elements=True
+        )
+        
+        async with AsyncWebCrawler(config=browser_cfg) as cr:
+            # Strict Calendar domain filtering
+            def strict_calendar_filter(url):
+                try:
+                    parsed = urlparse(url)
+                    
+                    # Only allow calendar.fiu.edu domain
+                    calendar_domain = "calendar.fiu.edu"
+                    if parsed.netloc.lower() != calendar_domain:
+                        print(f"🚫 Skipping non-Calendar domain: {parsed.netloc}")
+                        return False
+                    
+                    # Skip file extensions 
+                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico', '.ics', '.xml']):
+                        return False
+                    
+                    # Skip common external link patterns
+                    skip_patterns = [
+                        "redirect", "external", "outgoing", "goto", 
+                        "instagram", "facebook", "twitter", "linkedin",
+                        "mailto:", "tel:", "javascript:", "youtube",
+                        "login", "signin", "auth", "webcal://", 
+                        "download", "export", "subscribe", "feed"
+                    ]
+                    
+                    for pattern in skip_patterns:
+                        if pattern in url.lower():
+                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
+                            return False
+                    
+                    # Specific calendar paths to include (focus on event listings and categories)
+                    allowed_paths = [
+                        "/", "/events", "/calendar", "/categories", 
+                        "/view", "/search", "/month", "/week", "/day",
+                        "/department", "/college", "/upcoming"
+                    ]
+                    
+                    # Check if URL path starts with any allowed path or contains specific event indicators
+                    path_allowed = any(parsed.path.lower().startswith(path.lower()) for path in allowed_paths) or '/event/' in parsed.path.lower()
+                    if not path_allowed:
+                        print(f"🚫 Skipping non-essential Calendar path: {parsed.path}")
+                        return False
+                            
+                    return True
+                except Exception as e:
+                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
+                    return False
+                    
+            cr.link_filter = strict_calendar_filter
+            results = await cr.arun(base, config=cfg)
+            
+            # Filter results again to ensure we only process calendar.fiu.edu
+            calendar_only_results = []
+            for res in results:
+                try:
+                    if urlparse(res.url).netloc.lower() == "calendar.fiu.edu":
+                        calendar_only_results.append(res)
+                    else:
+                        print(f"⚠️ Filtered out non-Calendar URL from results: {res.url}")
+                except:
+                    continue
+            
+            print(f"\n📊 Processing {len(calendar_only_results)} Calendar pages (strictly calendar.fiu.edu domain only)...")
+            for idx, res in enumerate(calendar_only_results, start=1):
+                u = res.url
+                if res.success:
+                    try:
+                        content = ""
+                        if hasattr(res, "markdown"):
+                            if isinstance(res.markdown, str):
+                                content = res.markdown
+                            elif hasattr(res.markdown, "fit_markdown"):
+                                content = str(res.markdown.fit_markdown)
+                            else:
+                                content = str(res.markdown)
+                        metadata = getattr(res, "metadata", {})
+                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
+                        print(f"✅ {u}")
+                    except Exception as e:
+                        print(f"❌ Error processing {u}: {str(e)}")
+                else:
+                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
+                
+                # Add delay to avoid overloading the server
+                await asyncio.sleep(2 if idx % 5 == 0 else 1)
+        
+        return  # End Calendar-specific processing
+
+    # Normal processing for all other sites (unchanged)
     browser_cfg = BrowserConfig()
-    # Increased max_depth to 3 and max_pages to 400 for more thorough crawling
-    bfs = BFSDeepCrawlStrategy(max_depth=3, max_pages=400)
+    # Adjust depth based on the site
+    
+    bfs = BFSDeepCrawlStrategy(max_depth=1, max_pages=400, include_external=False)
     md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
     cfg = CrawlerRunConfig(
         deep_crawl_strategy=bfs,
         markdown_generator=md_gen,
         cache_mode=CacheMode.BYPASS,
-        exclude_external_links=True,  # Changed to True to exclude external links
+        exclude_external_links=True,
         check_robots_txt=True,
         process_iframes=True,
         remove_overlay_elements=True
     )
 
+    # Domain-specific link filter
+    current_domain = urlparse(base).netloc.lower()
+    
     async with AsyncWebCrawler(config=browser_cfg) as cr:
-        # Stricter link filter that checks the exact host
-        cr.link_filter = lambda u: urlparse(u).netloc.lower() == host and not any(ext in u.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js'])
+        # Add domain filtering for the specific site
+        cr.link_filter = lambda url: urlparse(url).netloc.lower() == current_domain
         results = await cr.arun(base, config=cfg)
 
-    print(f"→ Found {len(results)} pages under {host}")
-    for idx, res in enumerate(results, start=1):
-        u = res.url
-        if res.success:
-            content = ""
-            if hasattr(res, "markdown"):
-                if isinstance(res.markdown, str):
-                    content = res.markdown
-                elif hasattr(res.markdown, "fit_markdown"):
-                    content = str(res.markdown.fit_markdown)
-                else:
-                    content = str(res.markdown)
-            metadata = getattr(res, "metadata", {})
-            save_markdown(content, metadata, site_cfg["name"], u, index=idx)
-            print(f"✅ {u}")
-        else:
-            print(f"❌ {u} failed: {getattr(res,'error','?')}")
+        print(f"→ Found {len(results)} pages under {host}")
+        for idx, res in enumerate(results, start=1):
+            u = res.url
+            if res.success:
+                content = ""
+                if hasattr(res, "markdown"):
+                    if isinstance(res.markdown, str):
+                        content = res.markdown
+                    elif hasattr(res.markdown, "fit_markdown"):
+                        content = str(res.markdown.fit_markdown)
+                    else:
+                        content = str(res.markdown)
+                metadata = getattr(res, "metadata", {})
+                save_markdown(content, metadata, site_cfg["name"], u, index=idx)
+                print(f"✅ {u}")
+            else:
+                print(f"❌ {u} failed: {getattr(res,'error','?')}")
+            
+            # Add small delay to be nice to the server
+            if idx % 10 == 0:
+                await asyncio.sleep(1)
 
 # ─── Main function and site crawler ───────────────────────────────────────
 
@@ -261,16 +1005,20 @@ async def crawl_site(key: str):
 async def main():
     Path("fiu_content").mkdir(exist_ok=True)
    
-    # Crawl the catalog site only
-    await crawl_site("catalog")
+    # Uncomment the sites you want to crawl
     
-    # Other sites commented out for now
-    # await crawl_site("main")
+    # Choose which site to crawl
+    #await crawl_site("main")
+    
+    # Other sites - uncomment as needed
+    # await crawl_site("calendar")
+    # await crawl_site("mymajor")
+    # await crawl_site("catalog")
     # await crawl_site("athletics")
     # await crawl_site("sas")
     # await crawl_site("campuslabs")
     # await crawl_site("academicworks")
-    # await crawl_site("mymajor")
+    await crawl_site("emergency")
 
 if __name__ == "__main__":
     asyncio.run(main())

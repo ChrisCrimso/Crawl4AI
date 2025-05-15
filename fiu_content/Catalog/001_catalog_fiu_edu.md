@@ -1,7 +1,7 @@
 ---
 url: https://catalog.fiu.edu
 site: Catalog
-crawled_at: 2025-05-13T14:32:13.567359
+crawled_at: 2025-05-14T15:59:46.898182
 title: Florida International University Catalog
 ---
 
@@ -32,15 +32,15 @@ Use the University Catalog to find amazing classes, explore degree programs, and
 [ Explore Courses ](https://catalog.fiu.edu/courses)
 [ Explore Programs ](https://catalog.fiu.edu/programs)
 ![FIU graduates at commencement ](https://catalog.fiu.edu/_ipx/f_webp,q_50,s_10x10/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/homepage-grad-thumbnail.jpg)
-![](https://catalog.fiu.edu/_ipx/f_webp,q_50,s_10x10/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image-5%25402x.jpg)
-![Students sitting outside](https://catalog.fiu.edu/_ipx/f_webp,q_50,s_10x10/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image%25402x.jpg)
-![](https://catalog.fiu.edu/_ipx/f_webp,q_50,s_10x10/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image-2%25402x.jpg)
+![](https://catalog.fiu.edu/_ipx/f_webp,q_80/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image-5%25402x.jpg)
+![Students sitting outside](https://catalog.fiu.edu/_ipx/f_webp,q_80/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image%25402x.jpg)
+![](https://catalog.fiu.edu/_ipx/f_webp,q_80/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image-2%25402x.jpg)
 [Admissions](https://www.fiu.edu/admissions/index.html)
 [Academic Calendar](https://onestop.fiu.edu/academic-calendar/)
 [Paying for School](https://onestop.fiu.edu/finances/#/finances/estimate-your-costs/)
-![FIU students receiving academic advising services](https://catalog.fiu.edu/_ipx/f_webp,q_50,s_10x10/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/academic-support.jpg)
+![FIU students receiving academic advising services](https://catalog.fiu.edu/_ipx/f_webp,q_80/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/academic-support.jpg)
 ![An FIU student sitting alone using his laptop.](https://catalog.fiu.edu/_ipx/f_webp,q_80/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image-3%25402x.jpg)
-![A male student talking to two ladies in an office.](https://catalog.fiu.edu/_ipx/f_webp,q_50,s_10x10/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image-4%25402x.jpg)
+![A male student talking to two ladies in an office.](https://catalog.fiu.edu/_ipx/f_webp,q_80/https://coursedog-images-public.s3.us-east-2.amazonaws.com/fiu_peoplesoft/image-4%25402x.jpg)
 [Academic Support Services](https://dasa.fiu.edu/all-departments/advising/)
 [Transfer Credit](https://transfer.fiu.edu/)
 [Register for Classes](https://onestop.fiu.edu/classes/register-for-classes/)

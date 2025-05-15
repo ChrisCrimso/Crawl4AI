@@ -1,14 +1,13 @@
 ---
 url: https://www.fiu.edu
 site: MainSite
-crawled_at: 2025-05-13T11:54:25.241027
+crawled_at: 2025-05-15T11:06:58.168098
 title: Florida International University in Miami, FL
 ---
 
 [Skip to Main Content](https://www.fiu.edu/#main-content)
 [Florida International University![Florida International University Homepage](https://digicdn.fiu.edu/v1/_assets/images/fiu-main-logo.png)](https://www.fiu.edu/)
   * [FIU Portals](https://www.fiu.edu/)
-    * ##### [Back](javascript:void\(0\))
     * [FIU Portals](https://www.fiu.edu/)
     * [MyFIU](https://my.fiu.edu)
     * [FIU Canvas](https://canvas.fiu.edu)
@@ -42,7 +41,6 @@ In this Section
       * [Miami Beach Urban Studios](https://www.fiu.edu/locations/miami-beach-urban-studios/index.html)
 Related Links
       * [Aquarius Reef Base](https://aquarius.fiu.edu/)
-      * [The Wolfsonian—FIU](https://wolfsonian.org/)
       * [Patricia & Phillip Frost Art Museum](https://frost.fiu.edu/)
       * [Jewish Museum of Florida](https://jmof.fiu.edu/)
   * Admissions
@@ -106,8 +104,6 @@ Catch an exciting game in more than 17 Division-I sports ― and rep your alma m
 In this Section
       * [Athletics Overview ](https://www.fiu.edu/athletics/index.html)
 Related Links
-      * [Get Tickets](https://fiutickets.com/tickets/events)
-      * [Shop FIU Gear](http://fiu.shoptruespirit.com/)
       * [Recreation & the Outdoors](https://www.fiu.edu/student-life/recreation-the-outdoors/index.html)
   * Alumni & Giving
     * Be Part of the FIU Family
@@ -115,7 +111,6 @@ With a network of more than 200,000, FIU is the alma mater of leaders and influe
 In this Section
       * [Alumni & Giving Overview ](https://www.fiu.edu/alumni-and-giving/index.html)
 Related Links
-      * [Alumni Association](https://fiualumni.com/)
       * [Giving to FIU](https://give.fiu.edu/)
 
 
@@ -138,7 +133,6 @@ Related Links
     * [FIU Downtown on Brickell](https://www.fiu.edu/locations/downtown-at-brickell/index.html)
     * [Miami Beach Urban Studios](https://www.fiu.edu/locations/miami-beach-urban-studios/index.html)
     *       * [Aquarius Reef Base](https://aquarius.fiu.edu/)
-      * [The Wolfsonian—FIU](https://wolfsonian.org/)
       * [Patricia & Phillip Frost Art Museum](https://frost.fiu.edu/)
       * [Jewish Museum of Florida](https://jmof.fiu.edu/)
   * Admissions
@@ -182,17 +176,14 @@ Related Links
       * [Calendar](https://calendar.fiu.edu/)
   * Athletics
     * [Athletics Overview](https://www.fiu.edu/athletics/index.html)
-    *       * [Get Tickets](https://fiutickets.com/tickets/events)
-      * [Shop FIU Gear](http://fiu.shoptruespirit.com/)
-      * [Recreation & the Outdoors](https://www.fiu.edu/student-life/recreation-the-outdoors/index.html)
+    *       * [Recreation & the Outdoors](https://www.fiu.edu/student-life/recreation-the-outdoors/index.html)
   * Alumni & Giving
     * [Alumni & Giving Overview](https://www.fiu.edu/alumni-and-giving/index.html)
-    *       * [Alumni Association](https://fiualumni.com/)
-      * [Giving to FIU](https://give.fiu.edu/)
+    *       * [Giving to FIU](https://give.fiu.edu/)
 
 
 [Close ](https://www.fiu.edu/)
-| | [×](javascript:void\(0\) "Clear search box")  
+| |   
 ---|---  
 search|   
 ##### Quick Links
@@ -260,28 +251,19 @@ Get lost in the 342-acre city block that is Modesto A. Maidique Campus. Sit on t
 
 ![](https://www.fiu.edu/_assets/images/student-life/campus-refresh.jpg)
 ## News
+  * [![](https://www.fiu.edu/)Campus & CommunityUpdate on FIU presidential search: community sessions scheduleThe search committee announces four separate forums on May 21 at MMC at which the sole presidential candidate will speak and take questions. All are invited to attend either in person or online.](https://news.fiu.edu/2025/update-on-fiu-presidential-search?utm_source=main&utm_medium=feed&utm_campaign=newsroom-referrals&utm_term=homepage)
+  * [![](https://www.fiu.edu/)Politics, Law & SocietyIran and Ethiopia have a security deal – here’s why they signed itThe two countries sign a memorandum of understanding to strengthen ties amid shifting alliances and shared regional interests.](https://news.fiu.edu/2025/iran-and-ethiopia-have-a-security-deal-heres-why-they-signed-it?utm_source=main&utm_medium=feed&utm_campaign=newsroom-referrals&utm_term=homepage)
   * [![](https://www.fiu.edu/)Campus & CommunityFaculty member named CUSA Professor of the YearDr. Noël C. Barengo, an associate professor in the Herbert Wertheim College of Medicine, has received the honor in recognition of his dedication to teaching, research and service.](https://news.fiu.edu/2025/faculty-member-named-cusa-professor-of-the-year?utm_source=main&utm_medium=feed&utm_campaign=newsroom-referrals&utm_term=homepage)
   * [![](https://www.fiu.edu/)Medicine & Health SciencesPhysical therapist mom devises game-changing upper-limb treatment for sonAmanda Thomas of the Nicole Wertheim College of Nursing &amp; Health Sciences saw a need at home, but her work has potentially wide impact for other children with congenital upper-limb deficiencies.](https://news.fiu.edu/2025/game-changing-treatment?utm_source=main&utm_medium=feed&utm_campaign=newsroom-referrals&utm_term=homepage)
-  * [![](https://www.fiu.edu/)Campus & CommunityA living legend: President Emeritus Modesto A. Maidique retires from the faculty After 39 years, the transformational leader bids goodbye to a grateful university that will forever soar on the wings of his remarkable legacy.](https://news.fiu.edu/2025/a-living-legend-president-emeritus-modesto-a-maidique-retires-from-the-faculty?utm_source=main&utm_medium=feed&utm_campaign=newsroom-referrals&utm_term=homepage)
-  * [![](https://www.fiu.edu/)Campus & CommunityUpdate on FIU presidential searchFIU Presidential Search Committee announces sole finalist for university’s top post; community forums to be held May 21.](https://news.fiu.edu/2025/update-on-fiu-presidential-search?utm_source=main&utm_medium=feed&utm_campaign=newsroom-referrals&utm_term=homepage)
 
 
 [More News](https://news.fiu.edu/)
 ## Statement of Free Expression
 FIU endorses the Florida Board of Governors' Statement of Free Expression to support and encourage full and open discourse and the robust exchange of ideas and perspectives on our campuses. In addition to supporting this legal right, we view this as an integral part of our ability to deliver a high-quality academic experience for our students, engage in meaningful and productive research, and provide valuable public service. This includes fostering civil and open dialogue in support of critical thinking in and out of the classroom, including events hosted by the university.
-[Read the Full Statement](https://www.flbog.edu/2019/04/15/state-university-system-free-expression-statement/)
 [![Florida International University Homepage](https://www.fiu.edu/_assets/images/logo.png)](https://www.fiu.edu/index.html)
 ## Connect
   * [Contact Us](https://www.fiu.edu/about/contact-us/index.html)
   * [FIU News](https://news.fiu.edu/)
-
-
-  * [](https://www.instagram.com/fiuinstagram/)
-  * [](https://www.linkedin.com/school/florida-international-university/)
-  * [](https://www.facebook.com/floridainternational)
-  * [](https://twitter.com/fiu)
-  * [](https://www.youtube.com/user/FloridaInternational)
-  * [](https://flickr.com/photos/fiu)
 
 
 ## Explore FIU

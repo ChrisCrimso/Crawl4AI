@@ -1,7 +1,7 @@
 ---
 url: https://fiu.campuslabs.com/engage/involvement/currentmemberships
 site: CampusLabs
-crawled_at: 2025-05-13T13:43:02.545693
+crawled_at: 2025-05-14T16:42:54.823856
 title: FIU | Login
 ---
 
@@ -12,7 +12,7 @@ Notifications
 
 ## FIU Campus Labs
 Username [Forgot username?](https://login.fiu.edu/lookup/uid/) Password [Forgot password?](https://login.fiu.edu/account/recovery/alternate/)
-This site is protected by reCAPTCHA and the Google [Privacy Policy](https://policies.google.com/privacy) and [Terms of Service](https://policies.google.com/terms) apply. 
+This site is protected by reCAPTCHA and the Google and apply. 
 ![alpha](https://login.fiu.edu/images/alpha.svg)
 Having trouble logging in? [Get Help](https://login.fiu.edu/help/)
 [Manage Account](https://accounts.fiu.edu/)
@@ -30,14 +30,6 @@ The use of Florida International University's information technology resources i
 **Connect**
   * [FIU News](https://news.fiu.edu)
   * [Social Directory](https://social.fiu.edu/)
-
-
-  * [](https://www.facebook.com/floridainternational)
-  * [](https://twitter.com/fiu)
-  * [](https://www.instagram.com/fiuinstagram/)
-  * [](https://www.youtube.com/user/FloridaInternational)
-  * [](http://fiu.tumblr.com/)
-  * [](https://flickr.com/photos/fiu)
 
 
 © 2021 Florida International University | Website by [Division of Information Technology](https://it.fiu.edu) | [Web/Accessibility](https://policies.fiu.edu/policy/755) | [Website Feedback](https://webforms.fiu.edu/view.php?id=370774)

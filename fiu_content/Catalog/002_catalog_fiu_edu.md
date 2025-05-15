@@ -1,7 +1,7 @@
 ---
 url: https://catalog.fiu.edu
 site: Catalog
-crawled_at: 2025-05-13T14:32:13.568361
+crawled_at: 2025-05-14T15:59:47.906718
 title: Florida International University Catalog
 ---
 

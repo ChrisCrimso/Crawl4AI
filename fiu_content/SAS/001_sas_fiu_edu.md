@@ -1,16 +1,11 @@
 ---
 url: https://sas.fiu.edu
 site: SAS
-crawled_at: 2025-05-13T13:47:39.755737
+crawled_at: 2025-05-14T14:47:41.816453
 title: Student Access & Success
 ---
 
 [Skip to main content](https://sas.fiu.edu/#ajax-content-wrap)
-  * [twitter ](https://twitter.com/FIU_sas)
-  * [facebook ](https://www.facebook.com/SASFIU/?skip_nax_wizard=true)
-  * [instagram ](https://www.instagram.com/fiu_sas/)
-
-
   * [FIU | Division of Student Affairs](https://studentaffairs.fiu.edu)
 
 
@@ -56,7 +51,6 @@ Florida International University believes that scholarship and teaching are best
 **Writing Center** Developing top notch writing skills for higher education.
 [![footer logo](http://sas.fiu.edu/wp-content/uploads/2016/12/logo-footer.png)](http://fiu.edu)
 Email: sas@fiu.edu
-[![Facebook link](https://sas.fiu.edu/wp-content/uploads/2016/12/facebook-icon.png)](https://www.facebook.com/FIU-Student-Access-Success-697711650397025/?skip_nax_wizard=true) [![Instagram link](https://sas.fiu.edu/wp-content/uploads/2016/12/instagram-icon.png)](https://www.instagram.com/fiu_sas/)
 #### Modesto A. Maidique Campus
 11200 SW 8 Street, SASC 205 Miami, Florida 33199
 Tel: 305.348.3445

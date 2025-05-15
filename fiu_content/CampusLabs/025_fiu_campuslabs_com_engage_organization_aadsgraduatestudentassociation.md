@@ -1,7 +1,7 @@
 ---
 url: https://fiu.campuslabs.com/engage/organization/aadsgraduatestudentassociation
 site: CampusLabs
-crawled_at: 2025-05-13T13:40:58.340499
+crawled_at: 2025-05-14T16:43:20.092697
 title: African and African Diaspora Studies Graduate Student Association - Panther Connect
 ---
 

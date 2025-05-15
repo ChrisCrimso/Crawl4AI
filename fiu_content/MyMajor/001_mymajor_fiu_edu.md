@@ -1,7 +1,7 @@
 ---
 url: https://mymajor.fiu.edu
 site: MyMajor
-crawled_at: 2025-05-13T13:24:26.534342
+crawled_at: 2025-05-14T16:32:13.919483
 title: FIU MyMajor
 ---
 
