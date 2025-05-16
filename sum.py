@@ -66,11 +66,6 @@ FIU_SITES = {
         "base_url": "https://calendar.fiu.edu",
         # no 'sitemap_urls' key here
     },
-    "emergency": {
-        "name": "Emergency",
-        "base_url": "https://dem.fiu.edu",
-        # no 'sitemap_urls' key here
-    }
 }
 
 # ─── Helpers ────────────────────────────────────────────────────────────────
@@ -632,114 +627,6 @@ async def crawl_with_deep_crawl(site_cfg: dict):
         
         return  # End MyMajor-specific processing
 
-    # Enhanced handling for Emergency site
-    elif site_cfg["name"] == "Emergency":
-        print("\n⚠️ Emergency site - using strict domain filtering and crawling")
-        #Something
-        browser_cfg = BrowserConfig()
-        # Use appropriate crawl depth for emergency site
-        bfs = BFSDeepCrawlStrategy(max_depth=3, max_pages=200, include_external=False)
-        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
-        cfg = CrawlerRunConfig(
-            deep_crawl_strategy=bfs,
-
-            markdown_generator=md_gen,
-            cache_mode=CacheMode.BYPASS,
-            exclude_external_links=True,
-            check_robots_txt=True,
-            process_iframes=False,
-            remove_overlay_elements=True
-        )
-        
-        async with AsyncWebCrawler(config=browser_cfg) as cr:
-            # Strict Emergency domain filtering with detailed logging
-            def strict_emergency_filter(url):
-                try:
-                    parsed = urlparse(url)
-                    
-                    # Must be exactly dem.fiu.edu domain
-                    if parsed.netloc.lower() != "dem.fiu.edu":
-                        print(f"🚫 Skipping non-Emergency domain: {parsed.netloc}")
-                        return False
-                    
-                    # Skip file extensions
-                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico']):
-                        return False
-                    
-                    # Skip common external link patterns
-                    skip_patterns = [
-                        "redirect", "external", "outgoing", "goto", 
-                        "instagram", "facebook", "twitter", "linkedin",
-                        "mailto:", "tel:", "javascript:", "youtube",
-                        "login", "signin", "auth"
-                    ]
-                    
-                    for pattern in skip_patterns:
-                        if pattern in url.lower():
-                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
-                            return False
-                            
-                    # Permitted emergency paths - only crawl specific sections
-                    allowed_paths = [
-                        "/", "/about", "/alerts", "/emergency", 
-                        "/preparedness", "/resources", "/plans",
-                        "/training", "/contact", "/services",
-                        "/safety", "/procedures", "/information",
-                        "/response", "/recovery", "/mitigation",
-                        "/hurricane", "/weather", "/team"
-                    ]
-                    
-                    # Check if URL path starts with any allowed path
-                    path_allowed = any(parsed.path.lower().startswith(path.lower()) for path in allowed_paths)
-                    if not path_allowed:
-                        print(f"🚫 Skipping non-essential Emergency path: {parsed.path}")
-                        return False
-                        
-                    return True
-                except Exception as e:
-                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
-                    return False
-                    
-            cr.link_filter = strict_emergency_filter
-            results = await cr.arun(base, config=cfg)
-            
-            # Filter results again to ensure we only process dem.fiu.edu
-            emergency_only_results = []
-            for res in results:
-                try:
-                    if urlparse(res.url).netloc.lower() == "dem.fiu.edu":
-                        emergency_only_results.append(res)
-                    else:
-                        print(f"⚠️ Filtered out non-Emergency URL from results: {res.url}")
-                except:
-                    continue
-            
-            print(f"\n📊 Processing {len(emergency_only_results)} Emergency pages (strictly dem.fiu.edu domain only)...")
-            for idx, res in enumerate(emergency_only_results, start=1):
-                u = res.url
-                if res.success:
-                    try:
-                        content = ""
-                        if hasattr(res, "markdown"):
-                            if isinstance(res.markdown, str):
-                                content = res.markdown
-                            elif hasattr(res.markdown, "fit_markdown"):
-                                content = str(res.markdown.fit_markdown)
-                            else:
-                                content = str(res.markdown)
-                        metadata = getattr(res, "metadata", {})
-                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
-                        print(f"✅ {u}")
-                    except Exception as e:
-                        print(f"❌ Error processing {u}: {str(e)}")
-                else:
-                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
-                
-                # Add delay to avoid overloading the server
-                await asyncio.sleep(2 if idx % 5 == 0 else 1)
-        
-        return  # End Emergency-specific processing
-
     # Enhanced handling for CampusLabs site
     elif site_cfg["name"] == "CampusLabs":
         print("\n⚠️ CampusLabs site - using strict domain filtering and crawling")
@@ -1019,7 +906,7 @@ async def main():
     # await crawl_site("sas")
     # await crawl_site("campuslabs")
     # await crawl_site("academicworks")
-    await crawl_site("emergency")
+    #await crawl_site("calendar")
 
 if __name__ == "__main__":
     asyncio.run(main())
