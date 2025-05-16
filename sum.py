@@ -638,7 +638,7 @@ async def crawl_with_deep_crawl(site_cfg: dict):
         #Something
         browser_cfg = BrowserConfig()
         # Use appropriate crawl depth for emergency site
-        bfs = BFSDeepCrawlStrategy(max_depth=1, max_pages=200, include_external=False)
+        bfs = BFSDeepCrawlStrategy(max_depth=3, max_pages=200, include_external=False)
         md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
         cfg = CrawlerRunConfig(
             deep_crawl_strategy=bfs,
@@ -1012,7 +1012,7 @@ async def main():
     #await crawl_site("main")
     
     # Other sites - uncomment as needed
-    # await crawl_site("calendar")
+    #await crawl_site("calendar")
     # await crawl_site("mymajor")
     # await crawl_site("catalog")
     # await crawl_site("athletics")
