@@ -1,8 +1,8 @@
 ---
-url: https://mymajor.fiu.edu
+url: https://mymajor.fiu.edu/individual/305LANDXL
 site: MyMajor
-crawled_at: 2025-05-14T16:32:13.919483
-title: FIU MyMajor
+crawled_at: 2025-05-16T15:55:28.653581
+title: Major Information | FIU MyMajor
 ---
 
 ![](https://mymajor.fiu.edu/assets/logo-T4VPR2BI.png)
@@ -29,14 +29,3 @@ Search
 Search
 GoShow All
 MyMajor provides in-depth information on all FIU Undergraduate majors, their admissions criteria, career opportunities, and their departments' contact information. Use this tool to help find where you fit at FIU.
-Browse Majors
-No rows
-Compare
-Description
-Degree
-Major Maps
-College
-Campus
-Rows per page:
-10
-0–0 of 0

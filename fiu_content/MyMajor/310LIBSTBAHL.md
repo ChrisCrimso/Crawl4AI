@@ -1,7 +1,7 @@
 ---
-url: https://mymajor.fiu.edu/individual/411PHYBSENGR
+url: https://mymajor.fiu.edu/individual/310LIBSTBAHL
 site: MyMajor
-crawled_at: 2025-05-15T12:04:40.037611
+crawled_at: 2025-05-16T15:44:30.880113
 title: Major Information | FIU MyMajor
 ---
 

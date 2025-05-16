@@ -1,7 +1,7 @@
 ---
-url: https://mymajor.fiu.edu/individual/215GEOSCBS
+url: https://mymajor.fiu.edu/individual/470SOCWKBS
 site: MyMajor
-crawled_at: 2025-05-15T12:16:36.240740
+crawled_at: 2025-05-16T15:54:52.041313
 title: Major Information | FIU MyMajor
 ---
 
