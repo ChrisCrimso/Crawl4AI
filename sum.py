@@ -49,11 +49,6 @@ FIU_SITES = {
         "base_url": "https://fiu.academicworks.com",
         # no 'sitemap_urls' key here
     },
-    "mymajor": {
-        "name": "MyMajor",
-        "base_url": "https://mymajor.fiu.edu/individual/215GEOSCBS",
-        # no 'sitemap_urls' key here
-    },
     
     # Example site with sitemap (keeping for reference)
     "onestop": {
@@ -225,12 +220,15 @@ async def crawl_with_deep_crawl(site_cfg: dict):
     print(f"\n🕷️ Deep crawling {site_cfg['name']} @ {base}")
 
     # Special handling for catalog site
+    #Implements stricter domain filtering and crawling for the catalog site 
+    #Note: You'll see me doing this for other sites as well
     if site_cfg["name"] == "Catalog":
         print("\n⚠️ Catalog site - using strict domain filtering and crawling")
         
         browser_cfg = BrowserConfig()
         
         # Use slightly deeper crawl for catalog with longer timeout
+        #I limited the pages to 200 because it was taking too long to crawl the entire site and prevents it from crashing or overloading the server
         bfs = BFSDeepCrawlStrategy(max_depth=3, max_pages=200, include_external=False)
         md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
         cfg = CrawlerRunConfig(
@@ -328,6 +326,7 @@ async def crawl_with_deep_crawl(site_cfg: dict):
         return  # End catalog-specific processing
 
     # Enhanced handling for SAS site which has many external links
+    #So no matter what depth I used for SAS, it would only give 8 markdown files, so I just left it at 2
     elif site_cfg["name"] == "SAS":
         print("\n⚠️ SAS site has many external links - using strict domain filtering")
         
@@ -536,96 +535,6 @@ async def crawl_with_deep_crawl(site_cfg: dict):
                 await asyncio.sleep(2 if idx % 5 == 0 else 1)
         
         return  # End main FIU-specific processing
-
-    # Enhanced handling for MyMajor site
-    elif site_cfg["name"] == "MyMajor":
-        print("\n⚠️ MyMajor site - using strict domain filtering and crawling")
-        
-        browser_cfg = BrowserConfig()
-        # Use deeper crawl for MyMajor site
-        bfs = BFSDeepCrawlStrategy(max_depth=1, max_pages=300, include_external=False)
-        md_gen = DefaultMarkdownGenerator(content_filter=PruningContentFilter(0.48,"fixed"))
-        cfg = CrawlerRunConfig(
-            deep_crawl_strategy=bfs,
-            markdown_generator=md_gen,
-            cache_mode=CacheMode.BYPASS,
-            exclude_external_links=True,
-            check_robots_txt=True,
-            process_iframes=False,
-            remove_overlay_elements=True
-        )
-        
-        async with AsyncWebCrawler(config=browser_cfg) as cr:
-            # Strict MyMajor domain filtering with detailed logging
-            def strict_mymajor_filter(url):
-                try:
-                    parsed = urlparse(url)
-                    
-                    # Must be exactly mymajor.fiu.edu domain
-                    if parsed.netloc.lower() != "mymajor.fiu.edu":
-                        print(f"🚫 Skipping non-MyMajor domain: {parsed.netloc}")
-                        return False
-                    
-                    # Skip file extensions
-                    if any(ext in url.lower() for ext in ['.pdf', '.jpg', '.jpeg', '.png', '.gif', '.css', '.js', '.ico']):
-                        return False
-                    
-                    # Skip common external link patterns
-                    skip_patterns = [
-                        "redirect", "external", "outgoing", "goto", 
-                        "instagram", "facebook", "twitter", "linkedin",
-                        "mailto:", "tel:", "javascript:", "youtube"
-                    ]
-                    
-                    for pattern in skip_patterns:
-                        if pattern in url.lower():
-                            print(f"🚫 Skipping external link pattern ({pattern}): {url}")
-                            return False
-                            
-                    return True
-                except Exception as e:
-                    print(f"⚠️ Error filtering URL {url}: {str(e)}")
-                    return False
-                    
-            cr.link_filter = strict_mymajor_filter
-            results = await cr.arun(base, config=cfg)
-            
-            # Filter results again to ensure we only process mymajor.fiu.edu
-            mymajor_only_results = []
-            for res in results:
-                try:
-                    if urlparse(res.url).netloc.lower() == "mymajor.fiu.edu":
-                        mymajor_only_results.append(res)
-                    else:
-                        print(f"⚠️ Filtered out non-MyMajor URL from results: {res.url}")
-                except:
-                    continue
-            
-            print(f"\n📊 Processing {len(mymajor_only_results)} MyMajor pages (strictly mymajor.fiu.edu domain only)...")
-            for idx, res in enumerate(mymajor_only_results, start=1):
-                u = res.url
-                if res.success:
-                    try:
-                        content = ""
-                        if hasattr(res, "markdown"):
-                            if isinstance(res.markdown, str):
-                                content = res.markdown
-                            elif hasattr(res.markdown, "fit_markdown"):
-                                content = str(res.markdown.fit_markdown)
-                            else:
-                                content = str(res.markdown)
-                        metadata = getattr(res, "metadata", {})
-                        save_markdown(content, metadata, site_cfg["name"], u, index=idx)
-                        print(f"✅ {u}")
-                    except Exception as e:
-                        print(f"❌ Error processing {u}: {str(e)}")
-                else:
-                    print(f"❌ {u} failed: {getattr(res,'error','?')}")
-                
-                # Add delay to avoid overloading the server
-                await asyncio.sleep(2 if idx % 5 == 0 else 1)
-        
-        return  # End MyMajor-specific processing
 
     # Enhanced handling for CampusLabs site
     elif site_cfg["name"] == "CampusLabs":
@@ -900,13 +809,12 @@ async def main():
     
     # Other sites - uncomment as needed
     #await crawl_site("calendar")
-    # await crawl_site("mymajor")
     # await crawl_site("catalog")
     # await crawl_site("athletics")
     # await crawl_site("sas")
     # await crawl_site("campuslabs")
     # await crawl_site("academicworks")
-    #await crawl_site("calendar")
+    
 
 if __name__ == "__main__":
     asyncio.run(main())
