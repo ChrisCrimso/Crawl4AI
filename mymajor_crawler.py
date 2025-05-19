@@ -221,6 +221,7 @@ PROGRAM_URLS = [
     "https://mymajor.fiu.edu/individual/251HOSPSPRMG",
     "https://mymajor.fiu.edu/individual/251HOSPBEVMG"
 ]
+#I had to maunal add of the urls because the crawler was not working properly with just mymajor.fiu.edu
 
 # Set this to True to generate only markdown files (no JSON)
 MARKDOWN_ONLY = True
@@ -287,7 +288,7 @@ OUTPUT_DIR = Path("fiu_content") / "MyMajor"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # --------- Helper functions ---------
-
+#Saves the crawled program data in a structured markdown format
 def save_markdown(content: str, metadata: dict, url: str, filename: str = None):
     """Save content as markdown file with metadata"""
     if not filename:
@@ -330,12 +331,14 @@ def extract_program_code(url: str) -> Optional[str]:
     return None
 
 # --------- Crawling functions ---------
-
+#Specialized crawler function that handles the extraction of data from individual MyMajor program pages
+#Takes a URL as input and uses crawl4ai to extract the data, naviagte the page, and wait for the content to load
 async def crawl_program(url: str) -> bool:
     """Crawl a single MyMajor program page using Crawl4AI"""
     print(f"🎭 Crawling: {url}")
     
     # Configure browser
+    #Source: https://docs.crawl4ai.com/api/parameters/
     browser_config = BrowserConfig(
         viewport={"width": 1920, "height": 1080},
         headless=True,  # Run in headless mode for better performance
@@ -348,6 +351,8 @@ async def crawl_program(url: str) -> bool:
     )
     
     # Configure crawler
+    #Source: https://docs.crawl4ai.com/api/parameters/
+    #https://docs.crawl4ai.com/core/page-interaction/
     config = CrawlerRunConfig(
         wait_for="div#user-app-root",  # Wait for the main content container
         js_code="""
@@ -397,7 +402,7 @@ async def crawl_program(url: str) -> bool:
         print(f"❌ Error crawling {url}: {str(e)}")
         return False
 
-async def main():
+async def main(): #This is for the output area of the crawler so it can be easier to understand what is being crawled
     """Main entry point"""
     print("🚀 Starting MyMajor Crawler")
     
@@ -409,14 +414,14 @@ async def main():
     
     for url in PROGRAM_URLS:
         program_code = extract_program_code(url)
-        if not program_code:
+        if not program_code: #So if it cannot extract data from the url it will not crawl it
             print(f"⚠️ Could not extract program code from URL: {url}")
             continue
         
         print(f"\n🔍 Crawling program: {program_code}")
         
         success = await crawl_program(url)
-        if not success:
+        if not success: #If it fails to crawl it will not crawl it
             print(f"Failed to crawl {url}")
         
         # Add delay to avoid overloading the server
