@@ -1,0 +1,130 @@
+---
+url: https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills
+site: Calendar
+crawled_at: 2025-05-20T11:05:29.462052
+title: Thrift with CTD | Sizzlin' Skills
+    
+    
+      | FIU Calendar
+---
+
+[Skip to Main Content](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills#main-content)
+[![Florida International University Homepage](https://digicdn.fiu.edu/core/_assets/images/logo-top.png) Florida International University](https://www.fiu.edu)
+# [Events Calendar ](https://calendar.fiu.edu/)
+  * [Campus Life](https://calendar.fiu.edu/calendar?event_types%5B%5D=127595)
+  * [Arts & Culture](https://calendar.fiu.edu/calendar?event_types%5B%5D=127590)
+  * [Academics](https://calendar.fiu.edu/calendar?event_types%5B%5D=127582)
+  * [Career Readiness](https://calendar.fiu.edu/calendar?event_types%5B%5D=127584)
+  * [Recreation & Wellness](https://calendar.fiu.edu/calendar?event_types%5B%5D=127603)
+  * [Community](https://calendar.fiu.edu/calendar?event_types%5B%5D=127601)
+
+
+Search Search
+[Places](https://calendar.fiu.edu/search/places) [Events](https://calendar.fiu.edu/calendar) [Groups](https://calendar.fiu.edu/search/groups) [Departments](https://calendar.fiu.edu/search/departments)
+_Close Menu_
+_Search_ [ _Sign Up_ ](https://calendar.fiu.edu/signup)
+[Log in](https://calendar.fiu.edu/auth/shib_login?previous_url=https%3A%2F%2Fcalendar.fiu.edu%2Fevent%2Fthrift-with-ctd-sizzlin-skills) [Sign up](https://calendar.fiu.edu/signup)
+  * [FIU Calendar](https://calendar.fiu.edu/)
+  * [Wednesday, June 11](https://calendar.fiu.edu/calendar/day/2025/6/11)
+  * Thrift with CTD | Sizzlin' Skills
+
+
+_Clear message_
+# Thrift with CTD | Sizzlin' Skills
+Wednesday, June 11, 2025 11am to 2pm 
+[ I'm Interested ](https://calendar.fiu.edu/event/49676014415633/confirm?return=https%3A%2F%2Fcalendar.fiu.edu%2Fevent%2Fthrift-with-ctd-sizzlin-skills)
+_Share Thrift with CTD | Sizzlin' Skills_
+[ ![Image of Thrift with CTD | Sizzlin' Skills](https://localist-images.azureedge.net/photos/49676017399048/card/4031f05c3a318275865f285a5116a2d49221d300.jpg) ](https://calendar.fiu.edu/photo/49676017399048)
+[ I'm Interested ](https://calendar.fiu.edu/event/49676014415633/confirm?return=https%3A%2F%2Fcalendar.fiu.edu%2Fevent%2Fthrift-with-ctd-sizzlin-skills)
+About this Event
+[ WUC - Wolfe University Center, 253 ](https://calendar.fiu.edu/wuc) [View map ](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills#about_map)
+[Add to calendar ](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills)
+[ _Save to iCal_ ](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills.ics "Save to iCal") [ _Save to Outlook_ ](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills.ics "Save to Outlook")
+3000 NE 151st ST, Wolfe University Center, Miami, Florida 33181
+[View map ](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills#about_map)
+[Add to calendar ](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills)
+[ _Save to iCal_ ](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills.ics "Save to iCal") [ _Save to Outlook_ ](https://calendar.fiu.edu/event/thrift-with-ctd-sizzlin-skills.ics "Save to Outlook")
+Thrift for a professional wardrobe with Career and Talent Development 🌟 Ready to shine at the upcoming Career Expo? Join us for an event that not only equips you for success but also adds some eco-friendly flair to your wardrobe! 
+Location: WUC 253 It's time to "Thrift with CTD" and score some fantastic, FREE professional attire. That's right - free clothes, yours to keep! Your Career Services team has handpicked a collection of stylish, gently used professional attire just waiting for you (we also have some casual picks). Whether you're a student or an alum, these items are absolutely free. But that's not all! These clothes aren't just any garments; they're a gateway to your future success. Join us to explore the world of sustainable fashion and grab pieces that will help you shine in your virtual meetings, interviews, and more.
+RSVP Via 
+Should you need an ADA accommodation to participate in a university event, program, or activity or need to request materials in an accessible format, please contact FIU’s Office of Civil Rights Compliance and Accessibility (CRCA) at or . All requests for ADA accommodation or accessible materials for this event must be submitted to CRCA at least seven (7) business days prior to the event or at the earliest possible opportunity. 
+User Activity
+No recent activity
+[Sign up to post](https://calendar.fiu.edu/auth/shib_login?previous_url=https%3A%2F%2Fcalendar.fiu.edu%2Fevent%2Fthrift-with-ctd-sizzlin-skills)
+![Diverse group of FIU students put their paws up](https://www.fiu.edu/_assets/images/thumbnail-students-paw.jpg)
+## Statement of Free Expression
+FIU endorses the Florida Board of Governors' Statement of Free Expression to support and encourage full and open discourse and the robust exchange of ideas and perspectives on our campuses. In addition to supporting this legal right, we view this as an integral part of our ability to deliver a high-quality academic experience for our students, engage in meaningful and productive research, and provide valuable public service. This includes fostering civil and open dialogue in support of critical thinking in and out of the classroom, including events hosted by the university.
+## Event Types
+[Academics](https://calendar.fiu.edu/calendar?event_types%5B%5D=127582)
+[Admissions](https://calendar.fiu.edu/calendar?event_types%5B%5D=127583)
+[Alumni](https://calendar.fiu.edu/calendar?event_types%5B%5D=127589)
+[Arts & Culture](https://calendar.fiu.edu/calendar?event_types%5B%5D=127590)
+[Campus Life](https://calendar.fiu.edu/calendar?event_types%5B%5D=127595)
+[Career Readiness](https://calendar.fiu.edu/calendar?event_types%5B%5D=127584)
+[Community](https://calendar.fiu.edu/calendar?event_types%5B%5D=127601)
+[Faculty & Staff](https://calendar.fiu.edu/calendar?event_types%5B%5D=127602)
+[Lectures & Conferences](https://calendar.fiu.edu/calendar?event_types%5B%5D=127587)
+[Recreation & Wellness](https://calendar.fiu.edu/calendar?event_types%5B%5D=127603)
+## Audience
+[Alumni](https://calendar.fiu.edu/calendar?event_types%5B%5D=121721)
+[Faculty & Staff](https://calendar.fiu.edu/calendar?event_types%5B%5D=121720)
+[General Public](https://calendar.fiu.edu/calendar?event_types%5B%5D=121722)
+[Parents & Family](https://calendar.fiu.edu/calendar?event_types%5B%5D=36918157286658)
+[Private](https://calendar.fiu.edu/calendar?event_types%5B%5D=129753)
+[Prospective Students](https://calendar.fiu.edu/calendar?event_types%5B%5D=121723)
+[Retirees](https://calendar.fiu.edu/calendar?event_types%5B%5D=37290279036119)
+[Students](https://calendar.fiu.edu/calendar?event_types%5B%5D=121719)
+## Activity
+[All events](https://calendar.fiu.edu/search?what=events)
+[All departments](https://calendar.fiu.edu/search/departments)
+[All groups](https://calendar.fiu.edu/search?what=groups)
+[All places](https://calendar.fiu.edu/search?what=places)
+[Submit an event](https://calendar.fiu.edu/admin/events/new/basic-information)
+[ ![Florida International University Homepage](https://digicdn.fiu.edu/core/_assets/images/footer-logo.svg) ](https://www.fiu.edu/)
+## Connect
+  * [Contact FIU](https://www.fiu.edu/about/contact-us/index.html)
+  * [FIU News](https://news.fiu.edu/)
+
+
+## Explore FIU
+  * [About FIU](https://www.fiu.edu/about/index.html)
+  * [Admissions](https://www.fiu.edu/admissions/index.html)
+  * [Academics](https://www.fiu.edu/academics/index.html)
+  * [Locations](https://www.fiu.edu/locations/index.html)
+  * [Research](https://www.fiu.edu/research/index.html)
+  * [Student Life](https://www.fiu.edu/student-life/index.html)
+  * [Athletics](https://www.fiu.edu/athletics/index.html)
+  * [Alumni and Giving](https://www.fiu.edu/alumni-and-giving/index.html)
+  * [Careers at FIU](https://hr.fiu.edu/careers/)
+  * [Estimate Cost of Attendance](https://onestop.fiu.edu/finances/estimate-your-costs/)
+
+
+## Tools & Resources
+  * [Phonebook](https://phonebook.fiu.edu) (Directory)
+  * [University Calendar](https://calendar.fiu.edu/)
+  * [Campus Maps](https://campusmaps.fiu.edu/)
+  * [MyFIU](https://my.fiu.edu/)
+  * [Canvas](https://canvas.fiu.edu)
+  * [FIU Email](http://mail.fiu.edu/)
+  * [Reserve Space](https://reservespace.fiu.edu/make-reservation/)
+  * [Nondiscrimination](https://ace.fiu.edu/civil-rights-and-accessibility/harassment-and-discrimination/)
+  * [Title IX](https://ace.fiu.edu/title-ix/)
+  * [Report Discrimination or Harassment](https://report.fiu.edu/)
+
+
+© Florida International University  | Website by [Digital Communications](https://stratcomm.fiu.edu/digital-print/websites/) | [Website Feedback](https://webforms.fiu.edu/view.php?id=370774&element_5=https://calendar.fiu.edu/https://calendar.fiu.edu/) | [Web/Accessibility](https://accessibility.fiu.edu/)
+# Log in
+or
+[Log in with FIU Account](https://calendar.fiu.edu/auth/shib_login?previous_url=https%3A%2F%2Fcalendar.fiu.edu%2Fevent%2Fthrift-with-ctd-sizzlin-skills)
+[I forgot my password](https://calendar.fiu.edu/auth/forgot) [I don't have an account yet](https://calendar.fiu.edu/signup)
+Close Dialog
+  * Today
+  * Next 7 days
+  * Next 30 days
+  * Select date on a calendar
+
+
+CancelApply
+# Concept3D Cookie Policy
+We use cookies to understand how you use our site and to improve your experience. By continuing to use our site, you consent to our Privacy Policy, including the use of cookies. 
+Accept All CookiesSettings

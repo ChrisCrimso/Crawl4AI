@@ -1,13 +1,13 @@
 ---
 url: https://calendar.fiu.edu/marc/calendar
 site: Calendar
-crawled_at: 2025-05-16T11:01:57.506462
+crawled_at: 2025-05-20T11:06:06.985250
 title: Things to do at MARC - Management & Advanced Research
   
 
     
     
-       on May 16 - August 16, 2025
+       on May 20 - August 20, 2025
     
       | FIU Calendar
 ---
@@ -24,7 +24,7 @@ title: Things to do at MARC - Management & Advanced Research
 
 
 Search Search
-[Places](https://calendar.fiu.edu/search/places) [Events](https://calendar.fiu.edu/calendar) [Departments](https://calendar.fiu.edu/search/departments)
+[Places](https://calendar.fiu.edu/search/places) [Events](https://calendar.fiu.edu/calendar) [Groups](https://calendar.fiu.edu/search/groups) [Departments](https://calendar.fiu.edu/search/departments)
 _Close Menu_
 _Search_ [ _Sign Up_ ](https://calendar.fiu.edu/signup)
 [Log in](https://calendar.fiu.edu/auth/shib_login?previous_url=https%3A%2F%2Fcalendar.fiu.edu%2Fmarc%2Fcalendar) [Sign up](https://calendar.fiu.edu/signup)
@@ -39,7 +39,7 @@ Filter
 Hide recurring events
 Layout small Layout medium Layout big
 When
-May 16, 2025 - August 16, 2025
+May 20, 2025 - August 20, 2025
 Experience
 All Experiences In-Person Virtual
 Event Types Academics Dates & Deadlines Workshops & WebinarsAdmissions Information SessionsAlumniArts & Culture Exhibitions Literature & poetry Music Performing artsCampus Life Clubs & organizations Concerts & shows Greek life Homecoming Service learning Student government TraditionsCareer ReadinessCommunity Parents & FamilyFaculty & StaffLectures & ConferencesRecreation & Wellness Adventure Club sports Esports Health Intramurals Sporting Events
@@ -92,6 +92,22 @@ Thu, Jul 10, 2025 1pm to 2:30pm
 Academics
 [ Register ](https://calendar.fiu.edu/event/rcr-workshop-research-data-management#tickets=1) [ I'm Interested ](https://calendar.fiu.edu/event/49277142598272/confirm?instance_id=49277142598273&return=https%3A%2F%2Fcalendar.fiu.edu%2Fmarc%2Fcalendar)
 _Share RCR Workshop: Research Data Management_
+## Tuesday, August 19
+[ ![](https://localist-images.azureedge.net/photos/48712629375568/card/0032ad5d22362f1ddfb5f94a234aeaae8229cec4.jpg) ](https://calendar.fiu.edu/event/master-in-physician-assistant-studies-class-of-2027-orientiation)
+### [Master in Physician Assistant Studies Class of 2027 Orientiation](https://calendar.fiu.edu/event/master-in-physician-assistant-studies-class-of-2027-orientiation)
+Tue, Aug 19, 2025 8:30am to 5pm 
+[ MARC - Management & Advanced Research, Earlene and Albert Dotson Pavilion](https://calendar.fiu.edu/marc)
+Academics
+[ I'm Interested ](https://calendar.fiu.edu/event/48684622217655/confirm?instance_id=48684622218680&return=https%3A%2F%2Fcalendar.fiu.edu%2Fmarc%2Fcalendar)
+_Share Master in Physician Assistant Studies Class of 2027 Orientiation_
+## Wednesday, August 20
+[ ![](https://localist-images.azureedge.net/photos/48712629375568/card/0032ad5d22362f1ddfb5f94a234aeaae8229cec4.jpg) ](https://calendar.fiu.edu/event/master-in-physician-assistant-studies-class-of-2027-orientiation)
+### [Master in Physician Assistant Studies Class of 2027 Orientiation](https://calendar.fiu.edu/event/master-in-physician-assistant-studies-class-of-2027-orientiation)
+Wed, Aug 20, 2025 8:30am to 5pm 
+[ MARC - Management & Advanced Research, Earlene and Albert Dotson Pavilion](https://calendar.fiu.edu/marc)
+Academics
+[ I'm Interested ](https://calendar.fiu.edu/event/48684622217655/confirm?instance_id=48684622220729&return=https%3A%2F%2Fcalendar.fiu.edu%2Fmarc%2Fcalendar)
+_Share Master in Physician Assistant Studies Class of 2027 Orientiation_
   * No previous page _→_
   * Page 1 1
   * No next page _→_
@@ -123,6 +139,7 @@ FIU endorses the Florida Board of Governors' Statement of Free Expression to sup
 ## Activity
 [All events](https://calendar.fiu.edu/marc/calendar)
 [All departments](https://calendar.fiu.edu/search/departments)
+[All groups](https://calendar.fiu.edu/browse/groups)
 [All places](https://calendar.fiu.edu/browse/places)
 [Submit an event](https://calendar.fiu.edu/admin/events/new/basic-information)
 [ ![Florida International University Homepage](https://digicdn.fiu.edu/core/_assets/images/footer-logo.svg) ](https://www.fiu.edu/)

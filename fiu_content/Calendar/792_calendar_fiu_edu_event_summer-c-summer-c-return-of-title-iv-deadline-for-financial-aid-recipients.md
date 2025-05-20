@@ -1,7 +1,7 @@
 ---
 url: https://calendar.fiu.edu/event/summer-c-summer-c-return-of-title-iv-deadline-for-financial-aid-recipients
 site: Calendar
-crawled_at: 2025-05-16T11:01:03.776405
+crawled_at: 2025-05-20T11:05:21.298537
 title: Summer C: Summer "C" Return of Title IV deadline for financial aid recipients
     
     
@@ -20,7 +20,7 @@ title: Summer C: Summer "C" Return of Title IV deadline for financial aid recipi
 
 
 Search Search
-[Places](https://calendar.fiu.edu/search/places) [Events](https://calendar.fiu.edu/calendar) [Departments](https://calendar.fiu.edu/search/departments)
+[Places](https://calendar.fiu.edu/search/places) [Events](https://calendar.fiu.edu/calendar) [Groups](https://calendar.fiu.edu/search/groups) [Departments](https://calendar.fiu.edu/search/departments)
 _Close Menu_
 _Search_ [ _Sign Up_ ](https://calendar.fiu.edu/signup)
 [Log in](https://calendar.fiu.edu/auth/shib_login?previous_url=https%3A%2F%2Fcalendar.fiu.edu%2Fevent%2Fsummer-c-summer-c-return-of-title-iv-deadline-for-financial-aid-recipients) [Sign up](https://calendar.fiu.edu/signup)
@@ -72,6 +72,7 @@ FIU endorses the Florida Board of Governors' Statement of Free Expression to sup
 ## Activity
 [All events](https://calendar.fiu.edu/search?what=events)
 [All departments](https://calendar.fiu.edu/search/departments)
+[All groups](https://calendar.fiu.edu/search?what=groups)
 [All places](https://calendar.fiu.edu/search?what=places)
 [Submit an event](https://calendar.fiu.edu/admin/events/new/basic-information)
 [ ![Florida International University Homepage](https://digicdn.fiu.edu/core/_assets/images/footer-logo.svg) ](https://www.fiu.edu/)

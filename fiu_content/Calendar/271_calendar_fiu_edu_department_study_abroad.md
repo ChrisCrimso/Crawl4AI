@@ -1,7 +1,7 @@
 ---
 url: https://calendar.fiu.edu/department/study_abroad
 site: Calendar
-crawled_at: 2025-05-16T10:48:46.886394
+crawled_at: 2025-05-20T10:56:24.701374
 title: Office of Education Abroad
     
     
@@ -20,7 +20,7 @@ title: Office of Education Abroad
 
 
 Search Search
-[Places](https://calendar.fiu.edu/search/places) [Events](https://calendar.fiu.edu/calendar) [Departments](https://calendar.fiu.edu/search/departments)
+[Places](https://calendar.fiu.edu/search/places) [Events](https://calendar.fiu.edu/calendar) [Groups](https://calendar.fiu.edu/search/groups) [Departments](https://calendar.fiu.edu/search/departments)
 _Close Menu_
 _Search_ [ _Sign Up_ ](https://calendar.fiu.edu/signup?school_id=234)
 [Log in](https://calendar.fiu.edu/auth/shib_login?previous_url=https%3A%2F%2Fcalendar.fiu.edu%2Fdepartment%2Fstudy_abroad) [Sign up](https://calendar.fiu.edu/signup?school_id=234)
@@ -192,6 +192,7 @@ FIU endorses the Florida Board of Governors' Statement of Free Expression to sup
 ## Activity
 [All events](https://calendar.fiu.edu/department/study_abroad/calendar)
 [All departments](https://calendar.fiu.edu/search/departments)
+[All groups](https://calendar.fiu.edu/browse/groups)
 [All places](https://calendar.fiu.edu/browse/places)
 [Submit an event](https://calendar.fiu.edu/admin/events/new/basic-information)
 [ ![Florida International University Homepage](https://digicdn.fiu.edu/core/_assets/images/footer-logo.svg) ](https://www.fiu.edu/)
