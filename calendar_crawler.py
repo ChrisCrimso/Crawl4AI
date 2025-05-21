@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# calendar_crawler.py - Specialized crawler for FIU Calendar events
+# calendar_crawler.py - Specialized crawler for FIU Calendar events (PRESENT & FUTURE ONLY)
+# This script is designed to be run automatically on a schedule to keep dynamic event data updated
 
 import asyncio
 import sys
@@ -19,7 +20,8 @@ CALENDAR_CONFIG = {
     "base_url": "https://calendar.fiu.edu",
 }
 
-# Special URLs to ensure past/current/future events are captured
+# Special URLs to ensure present/future events are captured
+# Note: We're excluding past events as those will be manually crawled
 CALENDAR_SPECIAL_URLS = [
     "https://calendar.fiu.edu/",  # Current events
     "https://calendar.fiu.edu/upcoming",  # Upcoming events
@@ -29,17 +31,9 @@ CALENDAR_SPECIAL_URLS = [
     "https://calendar.fiu.edu/categories",  # Event categories
 ]
 
-# Add URLs for past events (last 12 months)
-#Go as far back as 2024
+# Add URLs for FUTURE events only (next 18 months - extending to capture more future events)
 current_date = datetime.now()
-for i in range(1, 13):  # Past 12 months
-    past_date = current_date - timedelta(days=30*i)
-    month_str = past_date.strftime("%Y/%m")
-    CALENDAR_SPECIAL_URLS.append(f"https://calendar.fiu.edu/calendar/{month_str}")
-
-# Add URLs for future events (next 12 months)
-#This goes as far as 2026
-for i in range(1, 13):  # Next 12 months
+for i in range(0, 18):  # Current month + next 17 months (1.5 years into future) 
     future_date = current_date + timedelta(days=30*i)
     month_str = future_date.strftime("%Y/%m")
     CALENDAR_SPECIAL_URLS.append(f"https://calendar.fiu.edu/calendar/{month_str}")
@@ -55,32 +49,78 @@ def create_markdown_filename(url: str, index: int = None) -> str:
         fn += ".md"
     return fn
 
-def save_markdown(content: str, metadata: dict, url: str, index: int = None):
-    out_dir = Path("fiu_content") / "Calendar"
-    out_dir.mkdir(parents=True, exist_ok=True)
+def is_past_event(event_date_str: str) -> bool:
+    """Determine if an event is in the past"""
+    if not event_date_str:
+        return False  # If we can't determine, default to treating as current/future
+        
+    try:
+        # Handle various date formats commonly found on the calendar
+        event_date_str = event_date_str.split(',')[0].strip()
+        event_date_str = event_date_str.split('-')[0].strip()
+        event_date_str = event_date_str.split('@')[0].strip()
+        
+        # Try to parse the date
+        for fmt in ["%B %d %Y", "%b %d %Y", "%m/%d/%Y", "%Y-%m-%d"]:
+            try:
+                event_date = datetime.strptime(event_date_str, fmt)
+                # Compare with current date
+                return event_date.date() < datetime.now().date()
+            except ValueError:
+                continue
+                
+        return False  # If we can't parse the date, default to current/future
+    except:
+        return False
 
-    filepath = out_dir / create_markdown_filename(url, index)
-    front = (
-        f"---\n"
-        f"url: {url}\n"
-        f"site: Calendar\n"
-        f"crawled_at: {metadata.get('crawled_at', datetime.now().isoformat())}\n"
-        f"title: {metadata.get('title','No title')}\n"
-        f"---\n\n"
-    )
-    
-    # Only save files with actual content or add a placeholder
-    if content and len(content.strip()) > 0:
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(front)
-            f.write(content or "")
-        print(f"💾 Saved: {filepath}")
-    else:
-        # Add placeholder for empty content
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(front)
-            f.write("*Content could not be retrieved - this may be a page with dynamic JavaScript content.*\n")
-        print(f"⚠️ Saved with placeholder (no content): {filepath}")
+def save_markdown(content: str, metadata: dict, url: str, index: int = None):
+    try:
+        # Determine if this is a past event or present/future event
+        event_date = ""
+        is_past = False
+        
+        if "Event Date(s):" in content:
+            try:
+                event_date = content.split("Event Date(s):")[1].split("\n")[0].strip()
+                is_past = is_past_event(event_date)
+            except:
+                pass
+        
+        # Save to appropriate folder based on timing
+        if is_past:
+            # Past events go to regular Calendar folder (static)
+            out_dir = Path("fiu_content") / "Calendar"
+        else:
+            # Present/future events go to Calendar_Dynamic folder
+            out_dir = Path("fiu_content") / "Calendar_Dynamic"
+            
+        out_dir.mkdir(parents=True, exist_ok=True)
+
+        filepath = out_dir / create_markdown_filename(url, index)
+        
+        front = (
+            f"---\n"
+            f"url: {url}\n"
+            f"site: Calendar\n"
+            f"crawled_at: {metadata.get('crawled_at', datetime.now().isoformat())}\n"
+            f"title: {metadata.get('title','No title')}\n"
+            f"event_date: {event_date}\n"
+            f"dynamic: {not is_past}\n"
+            f"---\n\n"
+        )
+        
+        # Only save files with actual content or add a placeholder
+        if content and len(content.strip()) > 0:
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(front)
+                f.write(content or "")
+            print(f"💾 Saved {'past' if is_past else 'future/current'} event: {filepath}")
+        else:
+            # Skip empty content
+            print(f"⚠️ Skipping empty content for: {url}")
+            
+    except Exception as e:
+        print(f"❌ Error saving markdown for {url}: {str(e)}")
 
 async def extract_event_date_info(page):
     """Extract additional date information for event pages"""
@@ -97,13 +137,14 @@ async def extract_event_date_info(page):
         return ""
 
 async def crawl_calendar_with_date_focus():
-    """Enhanced crawler for FIU Calendar with focus on past, present, and future events"""
+    """Enhanced crawler for FIU Calendar with focus on present and future events"""
     base = CALENDAR_CONFIG["base_url"]
     print(f"\n📅 Enhanced crawling of Calendar site @ {base}")
-    print(f"🔍 Special focus on past, present, and future events")
+    print(f"🔍 Special focus on present and future events (dynamic)")
     
-    # Create output directory
+    # Create output directories
     Path("fiu_content/Calendar").mkdir(parents=True, exist_ok=True)
+    Path("fiu_content/Calendar_Dynamic").mkdir(parents=True, exist_ok=True)
     
     browser_cfg = BrowserConfig()
     # Deep crawl with higher page limit for calendar
@@ -119,8 +160,7 @@ async def crawl_calendar_with_date_focus():
         check_robots_txt=True,
         process_iframes=False,
         remove_overlay_elements=True,
-        wait_until="networkidle",  # Wait longer for calendar events to load
-        page_timeout=60000  # Extended timeout (60 seconds) to ensure content loads
+        wait_until="networkidle"  # Wait longer for calendar events to load
     )
     
     # Custom JS to evaluate on each page to help extract event dates
@@ -256,9 +296,22 @@ async def crawl_calendar_with_date_focus():
 
 async def main():
     Path("fiu_content").mkdir(exist_ok=True)
-    print("🗓️ Starting enhanced Calendar crawler - focusing on past, present, and future events")
+    print("🗓️ FIU Calendar Crawler - Dynamic Events (PRESENT & FUTURE)")
+    print("📅 Running at:", datetime.now().strftime("%Y-%m-%d %H:%M"))
     await crawl_calendar_with_date_focus()
+    
+    # Save URL log
+    log_file = Path("fiu_content/Calendar_Dynamic") / f"url_log_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
+    with open(log_file, 'w') as f:
+        import json
+        json.dump({
+            "crawl_time": datetime.now().isoformat(),
+            "log": "Present and future calendar events crawl"
+        }, f, indent=2)
+    
     print("✅ Calendar crawling complete")
+    print(f"📝 URL log saved to {log_file}")
+    print("ℹ️ Run this script regularly to keep future event data updated")
 
 if __name__ == "__main__":
     asyncio.run(main()) 
