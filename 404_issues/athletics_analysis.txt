@@ -1,0 +1,17 @@
+ATHLETICS FILES ANALYSIS
+================================================================================
+
+Total files: 1653
+Sample size: 15
+
+Summary Statistics:
+  Files with frontmatter: 15/15
+  Files with URL: 15/15
+  Files with title: 15/15
+  Average content size: 297.00 bytes
+
+Domain distribution:
+  fiusports.com: 15
+
+Issue types:
+  Content too small: 15

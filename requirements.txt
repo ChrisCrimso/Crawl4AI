@@ -1,5 +1,0 @@
-httpx>=0.24.0
-crawl4ai
-asyncio
-beautifulsoup4>=4.12.0
-playwright>=1.42.0 

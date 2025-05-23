@@ -77,6 +77,69 @@ The project demonstrates two approaches to handling Single Page Applications:
 1. **Traditional crawler + manual data**: Used in `sum.py`, combining basic HTML crawling with manually curated data
 2. **Headless browser + DOM analysis**: Used in `mymajor_crawler.py`, rendering JavaScript and extracting content from the live DOM
 
+## FIU Knowledge Base - Question Answering System
+
+We've developed two search systems for the FIU knowledge base:
+
+### 1. Simple Search System (No API Key Required)
+
+This system uses basic keyword matching to find relevant documents:
+
+```
+# Command line usage:
+# Build the search index
+python fiu_simple_search.py --build
+
+# Search for something
+python fiu_simple_search.py --query "computer science major"
+
+# Or use the Streamlit interface
+streamlit run fiu_simple_search.py
+```
+
+### 2. Advanced RAG System (Requires OpenAI API Key)
+
+We've also developed a simple Retrieval-Augmented Generation (RAG) system that can answer questions about FIU based on the crawled content.
+
+### Setup
+
+1. Install the required packages:
+   ```
+   pip install -r requirements_rag.txt
+   ```
+
+2. Create a `.env` file with your OpenAI API key:
+   ```
+   # Copy the sample env file
+   copy sample.env .env
+   # Then edit the .env file to add your OpenAI API key
+   ```
+
+### Usage
+
+Run the Streamlit application for a web interface:
+```
+streamlit run fiu_rag.py
+```
+
+Or use the command-line interface:
+```
+# Build the vector store (only needed once)
+python fiu_qa_cli.py --build
+
+# Ask a question directly
+python fiu_qa_cli.py --question "What events are happening at FIU next month?"
+
+# Or use interactive mode
+python fiu_qa_cli.py
+```
+
+The first time you run it, you'll need to build the vector store by clicking the "Build Vector Store" button in the Streamlit app or using the `--build` flag in the CLI.
+
+Once built, you can ask questions about FIU, and the system will retrieve relevant information from the crawled content and provide answers.
+
+See `rag_system_guide.md` for more details.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. 

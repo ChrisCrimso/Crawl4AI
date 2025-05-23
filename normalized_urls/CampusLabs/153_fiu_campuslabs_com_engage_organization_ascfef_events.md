@@ -1,0 +1,20 @@
+---
+url: https://fiu.campuslabs.com/engage/organization/ascfef/events/
+site: CampusLabs
+crawled_at: 2025-05-14T16:45:57.170074
+title: Adam Smith Center for Economic Freedom Events - Panther Connect
+---
+normalized_at: 2025-05-22T17:17:29.249814
+normalization_changes: Added trailing slash to directory path
+
+#  Adam Smith Center for Economic Freedom Events
+Show Past Events
+## Filter Options
+### Search
+Search Events
+## Search Results
+Showing 0 events.
+![](https://static.campuslabsengage.com/discovery/images/events_1.svg)
+We looked far and wide.
+This organization doesn't have any upcoming events.
+[iCal Feed](https://fiu.campuslabs.com/engage/organization/ascfef/events.ics)[RSS Feed](https://fiu.campuslabs.com/engage/organization/ascfef/events.rss)
